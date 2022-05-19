@@ -7,21 +7,21 @@ modalities = ('flair', 't1ce', 't1', 't2')
 
 # train
 train_set = {
-        'root': 'path to training set',
-        'flist': 'all.txt',
+        'root': 'TransBTS/MICCAI_BraTS_2019_Data_Training',
+        'flist': 'train.txt',
         'has_label': True
         }
 
 # test/validation data
 valid_set = {
-        'root': 'path to validation set',
+        'root': 'TransBTS/MICCAI_BraTS_2019_Data_Training',
         'flist': 'valid.txt',
         'has_label': False
         }
 
 test_set = {
-        'root': 'path to testing set',
-        'flist': 'test.txt',
+        'root': 'TransBTS/MICCAI_BraTS_2019_Data_Training',
+        'flist': 'valid.txt',
         'has_label': False
         }
 

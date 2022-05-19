@@ -1,0 +1,74 @@
+2022-05-13 15:29:55 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-13 15:29:55 ===> subset=10
+2022-05-13 15:29:55 ===> transforms=rot15+pe
+2022-05-13 15:29:55 ===> user=name of user
+2022-05-13 15:29:55 ===> experiment=TransBTS
+2022-05-13 15:29:55 ===> date=2022-05-13 15:29:55
+2022-05-13 15:29:55 ===> description=rot15+pe
+2022-05-13 15:29:55 ===> root=path to training set
+2022-05-13 15:29:55 ===> train_dir=Train
+2022-05-13 15:29:55 ===> valid_dir=Valid
+2022-05-13 15:29:55 ===> mode=train
+2022-05-13 15:29:55 ===> train_file=train.txt
+2022-05-13 15:29:55 ===> valid_file=valid.txt
+2022-05-13 15:29:55 ===> dataset=brats
+2022-05-13 15:29:55 ===> model_name=TransBTS
+2022-05-13 15:29:55 ===> input_C=4
+2022-05-13 15:29:55 ===> input_H=240
+2022-05-13 15:29:55 ===> input_W=240
+2022-05-13 15:29:55 ===> input_D=160
+2022-05-13 15:29:55 ===> crop_H=128
+2022-05-13 15:29:55 ===> crop_W=128
+2022-05-13 15:29:55 ===> crop_D=128
+2022-05-13 15:29:55 ===> output_D=155
+2022-05-13 15:29:55 ===> lr=0.0002
+2022-05-13 15:29:55 ===> weight_decay=1e-05
+2022-05-13 15:29:55 ===> amsgrad=True
+2022-05-13 15:29:55 ===> criterion=softmax_dice
+2022-05-13 15:29:55 ===> num_class=4
+2022-05-13 15:29:55 ===> seed=1000
+2022-05-13 15:29:55 ===> no_cuda=False
+2022-05-13 15:29:55 ===> gpu=0,1,2,3
+2022-05-13 15:29:55 ===> num_workers=8
+2022-05-13 15:29:55 ===> batch_size=8
+2022-05-13 15:29:55 ===> start_epoch=0
+2022-05-13 15:29:55 ===> end_epoch=3
+2022-05-13 15:29:55 ===> save_freq=1000
+2022-05-13 15:29:55 ===> resume=
+2022-05-13 15:29:55 ===> load=True
+2022-05-13 15:29:55 ===> local_rank=0
+2022-05-13 15:29:55 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-13 15:29:55 ===> rot15+pe
+2022-05-13 15:29:55 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-13 15:29:55 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-13 15:29:58 ===> re-training!!!
+2022-05-13 15:29:58 ===> Samples for train = 10
+2022-05-13 15:30:06 ===> Epoch: 0_Iter:0  loss: 1.46148 || 1:0.0096 | 2:0.0168 | 3:0.0121 ||
+2022-05-13 15:30:10 ===> Epoch: 0_Iter:1  loss: 1.46202 || 1:0.0122 | 2:0.0146 | 3:0.0112 ||
+2022-05-13 15:30:12 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-13 15:30:12 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-13 15:30:12 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-13 15:30:12 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-13 15:30:12 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-13 15:30:12 ===> Current epoch time consumption: 0.22 minutes!
+2022-05-13 15:30:12 ===> Estimated remaining training time: 0.01 hours!
+2022-05-13 15:30:16 ===> Epoch: 1_Iter:0  loss: 1.45541 || 1:0.0076 | 2:0.0294 | 3:0.0076 ||
+2022-05-13 15:30:17 ===> Epoch: 1_Iter:1  loss: 1.45353 || 1:0.0147 | 2:0.0167 | 3:0.0150 ||
+2022-05-13 15:30:18 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-13 15:30:18 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-13 15:30:18 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-13 15:30:18 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-13 15:30:18 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-13 15:30:18 ===> Current epoch time consumption: 0.10 minutes!
+2022-05-13 15:30:18 ===> Estimated remaining training time: 0.00 hours!
+2022-05-13 15:30:22 ===> Epoch: 2_Iter:0  loss: 1.46774 || 1:0.0109 | 2:0.0172 | 3:0.0042 ||
+2022-05-13 15:30:23 ===> Epoch: 2_Iter:1  loss: 1.43247 || 1:0.0151 | 2:0.0345 | 3:0.0179 ||
+2022-05-13 15:30:24 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-13 15:30:24 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-13 15:30:24 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-13 15:30:24 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-13 15:30:24 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-13 15:30:24 ===> Current epoch time consumption: 0.09 minutes!
+2022-05-13 15:30:24 ===> Estimated remaining training time: 0.00 hours!
+2022-05-13 15:30:25 ===> The total training time is 0.01 hours
+2022-05-13 15:30:25 ===> ----------------------------------The training process finished!-----------------------------------

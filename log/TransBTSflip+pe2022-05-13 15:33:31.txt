@@ -1,0 +1,43 @@
+2022-05-13 15:33:31 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-13 15:33:31 ===> subset=10
+2022-05-13 15:33:31 ===> transforms=flip+pe
+2022-05-13 15:33:31 ===> user=name of user
+2022-05-13 15:33:31 ===> experiment=TransBTS
+2022-05-13 15:33:31 ===> date=2022-05-13 15:33:31
+2022-05-13 15:33:31 ===> description=flip+pe
+2022-05-13 15:33:31 ===> root=path to training set
+2022-05-13 15:33:31 ===> train_dir=Train
+2022-05-13 15:33:31 ===> valid_dir=Valid
+2022-05-13 15:33:31 ===> mode=train
+2022-05-13 15:33:31 ===> train_file=train.txt
+2022-05-13 15:33:31 ===> valid_file=valid.txt
+2022-05-13 15:33:31 ===> dataset=brats
+2022-05-13 15:33:31 ===> model_name=TransBTS
+2022-05-13 15:33:31 ===> input_C=4
+2022-05-13 15:33:31 ===> input_H=240
+2022-05-13 15:33:31 ===> input_W=240
+2022-05-13 15:33:31 ===> input_D=160
+2022-05-13 15:33:31 ===> crop_H=128
+2022-05-13 15:33:31 ===> crop_W=128
+2022-05-13 15:33:31 ===> crop_D=128
+2022-05-13 15:33:31 ===> output_D=155
+2022-05-13 15:33:31 ===> lr=0.0002
+2022-05-13 15:33:31 ===> weight_decay=1e-05
+2022-05-13 15:33:31 ===> amsgrad=True
+2022-05-13 15:33:31 ===> criterion=softmax_dice
+2022-05-13 15:33:31 ===> num_class=4
+2022-05-13 15:33:31 ===> seed=1000
+2022-05-13 15:33:31 ===> no_cuda=False
+2022-05-13 15:33:31 ===> gpu=0,1,2,3
+2022-05-13 15:33:31 ===> num_workers=8
+2022-05-13 15:33:31 ===> batch_size=8
+2022-05-13 15:33:31 ===> start_epoch=0
+2022-05-13 15:33:31 ===> end_epoch=3
+2022-05-13 15:33:31 ===> save_freq=1000
+2022-05-13 15:33:31 ===> resume=
+2022-05-13 15:33:31 ===> load=True
+2022-05-13 15:33:31 ===> local_rank=0
+2022-05-13 15:33:31 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-13 15:33:31 ===> flip+pe
+2022-05-13 15:33:31 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-13 15:33:41 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)

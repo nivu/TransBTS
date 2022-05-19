@@ -1,0 +1,44 @@
+2022-05-13 18:18:16 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-13 18:18:16 ===> subset=0
+2022-05-13 18:18:16 ===> transforms=flip+pe
+2022-05-13 18:18:16 ===> user=name of user
+2022-05-13 18:18:16 ===> experiment=TransBTS
+2022-05-13 18:18:16 ===> date=2022-05-13 18:18:16
+2022-05-13 18:18:16 ===> description=flip+pe
+2022-05-13 18:18:16 ===> root=path to training set
+2022-05-13 18:18:16 ===> train_dir=Train
+2022-05-13 18:18:16 ===> valid_dir=Valid
+2022-05-13 18:18:16 ===> mode=train
+2022-05-13 18:18:16 ===> train_file=train.txt
+2022-05-13 18:18:16 ===> valid_file=valid.txt
+2022-05-13 18:18:16 ===> dataset=brats
+2022-05-13 18:18:16 ===> model_name=TransBTS
+2022-05-13 18:18:16 ===> input_C=4
+2022-05-13 18:18:16 ===> input_H=240
+2022-05-13 18:18:16 ===> input_W=240
+2022-05-13 18:18:16 ===> input_D=160
+2022-05-13 18:18:16 ===> crop_H=128
+2022-05-13 18:18:16 ===> crop_W=128
+2022-05-13 18:18:16 ===> crop_D=128
+2022-05-13 18:18:16 ===> output_D=155
+2022-05-13 18:18:16 ===> lr=0.0002
+2022-05-13 18:18:16 ===> weight_decay=1e-05
+2022-05-13 18:18:16 ===> amsgrad=True
+2022-05-13 18:18:16 ===> criterion=softmax_dice
+2022-05-13 18:18:16 ===> num_class=4
+2022-05-13 18:18:16 ===> seed=1000
+2022-05-13 18:18:16 ===> no_cuda=False
+2022-05-13 18:18:16 ===> gpu=0,1,2,3
+2022-05-13 18:18:16 ===> num_workers=8
+2022-05-13 18:18:16 ===> batch_size=8
+2022-05-13 18:18:16 ===> start_epoch=0
+2022-05-13 18:18:16 ===> end_epoch=3
+2022-05-13 18:18:16 ===> save_freq=1000
+2022-05-13 18:18:16 ===> resume=
+2022-05-13 18:18:16 ===> load=True
+2022-05-13 18:18:16 ===> local_rank=0
+2022-05-13 18:18:16 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-13 18:18:16 ===> flip+pe
+2022-05-13 18:18:16 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-13 18:18:26 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-13 18:18:36 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)

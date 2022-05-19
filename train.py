@@ -26,12 +26,15 @@ local_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
 parser = argparse.ArgumentParser()
 
+# Newly added
+parser.add_argument('--subset', default=0)
+parser.add_argument('--transforms', default='flip+pe')
 # Basic Information
 parser.add_argument('--user', default='name of user', type=str)
 
 parser.add_argument('--experiment', default='TransBTS', type=str)
 
-parser.add_argument('--date', default=local_time.split(' ')[0], type=str)
+parser.add_argument('--date', default=local_time, type=str)
 
 parser.add_argument('--description',
                     default='TransBTS,'
@@ -105,11 +108,15 @@ parser.add_argument('--load', default=True, type=bool)
 parser.add_argument('--local_rank', default=0, type=int, help='node rank for distributed training')
 
 args = parser.parse_args()
+if args.subset ==0:
+    args.subset = None
+else:
+    args.subset = int(args.subset)
 
 
 def main_worker():
     if args.local_rank == 0:
-        log_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'log', args.experiment+args.date)
+        log_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'log', args.experiment+args.transforms+args.date)
         log_file = log_dir + '.txt'
         log_args(log_file)
         logging.info('--------------------------------------This is all argsurations----------------------------------')
@@ -157,10 +164,10 @@ def main_worker():
     else:
         logging.info('re-training!!!')
 
-    train_list = os.path.join(args.root, args.train_dir, args.train_file)
-    train_root = os.path.join(args.root, args.train_dir)
+    train_list = "TransBTS/data/train.txt"
+    train_root = "TransBTS/data/"
 
-    train_set = BraTS(train_list, train_root, args.mode)
+    train_set = BraTS(train_list, train_root, args.mode, args.transforms, args.subset)
     train_sampler = torch.utils.data.distributed.DistributedSampler(train_set)
     logging.info('Samples for train = {}'.format(len(train_set)))
 

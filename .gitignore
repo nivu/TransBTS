@@ -1,0 +1,6 @@
+data/HGG/
+data/LGG
+data-2020/content
+checkpoint/
+.ipynb_checkpoints/
+**/__pycache__/

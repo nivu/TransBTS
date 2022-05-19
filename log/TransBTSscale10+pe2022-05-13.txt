@@ -1,0 +1,152 @@
+2022-05-13 15:24:29 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-13 15:24:29 ===> subset=10
+2022-05-13 15:24:29 ===> transforms=scale10+pe
+2022-05-13 15:24:29 ===> user=name of user
+2022-05-13 15:24:29 ===> experiment=TransBTS
+2022-05-13 15:24:29 ===> date=2022-05-13
+2022-05-13 15:24:29 ===> description=scale10+pe
+2022-05-13 15:24:29 ===> root=path to training set
+2022-05-13 15:24:29 ===> train_dir=Train
+2022-05-13 15:24:29 ===> valid_dir=Valid
+2022-05-13 15:24:29 ===> mode=train
+2022-05-13 15:24:29 ===> train_file=train.txt
+2022-05-13 15:24:29 ===> valid_file=valid.txt
+2022-05-13 15:24:29 ===> dataset=brats
+2022-05-13 15:24:29 ===> model_name=TransBTS
+2022-05-13 15:24:29 ===> input_C=4
+2022-05-13 15:24:29 ===> input_H=240
+2022-05-13 15:24:29 ===> input_W=240
+2022-05-13 15:24:29 ===> input_D=160
+2022-05-13 15:24:29 ===> crop_H=128
+2022-05-13 15:24:29 ===> crop_W=128
+2022-05-13 15:24:29 ===> crop_D=128
+2022-05-13 15:24:29 ===> output_D=155
+2022-05-13 15:24:29 ===> lr=0.0002
+2022-05-13 15:24:29 ===> weight_decay=1e-05
+2022-05-13 15:24:29 ===> amsgrad=True
+2022-05-13 15:24:29 ===> criterion=softmax_dice
+2022-05-13 15:24:29 ===> num_class=4
+2022-05-13 15:24:29 ===> seed=1000
+2022-05-13 15:24:29 ===> no_cuda=False
+2022-05-13 15:24:29 ===> gpu=0,1,2,3
+2022-05-13 15:24:29 ===> num_workers=8
+2022-05-13 15:24:29 ===> batch_size=8
+2022-05-13 15:24:29 ===> start_epoch=0
+2022-05-13 15:24:29 ===> end_epoch=2
+2022-05-13 15:24:29 ===> save_freq=1000
+2022-05-13 15:24:29 ===> resume=
+2022-05-13 15:24:29 ===> load=True
+2022-05-13 15:24:29 ===> local_rank=0
+2022-05-13 15:24:29 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-13 15:24:29 ===> scale10+pe
+2022-05-13 15:24:29 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-13 15:24:29 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-13 15:24:32 ===> re-training!!!
+2022-05-13 15:24:32 ===> Samples for train = 10
+2022-05-13 15:24:38 ===> Epoch: 0_Iter:0  loss: 1.46040 || 1:0.0085 | 2:0.0175 | 3:0.0136 ||
+2022-05-13 15:24:42 ===> Epoch: 0_Iter:1  loss: 1.45817 || 1:0.0128 | 2:0.0156 | 3:0.0134 ||
+2022-05-13 15:24:43 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-13 15:24:43 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-13 15:24:43 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-13 15:24:43 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-13 15:24:43 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-13 15:24:43 ===> Current epoch time consumption: 0.18 minutes!
+2022-05-13 15:24:43 ===> Estimated remaining training time: 0.00 hours!
+2022-05-13 15:24:45 ===> Epoch: 1_Iter:0  loss: 1.45466 || 1:0.0067 | 2:0.0300 | 3:0.0086 ||
+2022-05-13 15:24:45 ===> Epoch: 1_Iter:1  loss: 1.45132 || 1:0.0140 | 2:0.0165 | 3:0.0182 ||
+2022-05-13 15:24:47 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-13 15:24:47 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-13 15:24:47 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-13 15:24:47 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-13 15:24:47 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-13 15:24:47 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-13 15:24:47 ===> Estimated remaining training time: 0.00 hours!
+2022-05-13 15:24:47 ===> The total training time is 0.00 hours
+2022-05-13 15:24:47 ===> ----------------------------------The training process finished!-----------------------------------
+2022-05-13 15:26:39 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-13 15:26:39 ===> subset=10
+2022-05-13 15:26:39 ===> transforms=scale10+pe
+2022-05-13 15:26:39 ===> user=name of user
+2022-05-13 15:26:39 ===> experiment=TransBTS
+2022-05-13 15:26:39 ===> date=2022-05-13
+2022-05-13 15:26:39 ===> description=scale10+pe
+2022-05-13 15:26:39 ===> root=path to training set
+2022-05-13 15:26:39 ===> train_dir=Train
+2022-05-13 15:26:39 ===> valid_dir=Valid
+2022-05-13 15:26:39 ===> mode=train
+2022-05-13 15:26:39 ===> train_file=train.txt
+2022-05-13 15:26:39 ===> valid_file=valid.txt
+2022-05-13 15:26:39 ===> dataset=brats
+2022-05-13 15:26:39 ===> model_name=TransBTS
+2022-05-13 15:26:39 ===> input_C=4
+2022-05-13 15:26:39 ===> input_H=240
+2022-05-13 15:26:39 ===> input_W=240
+2022-05-13 15:26:39 ===> input_D=160
+2022-05-13 15:26:39 ===> crop_H=128
+2022-05-13 15:26:39 ===> crop_W=128
+2022-05-13 15:26:39 ===> crop_D=128
+2022-05-13 15:26:39 ===> output_D=155
+2022-05-13 15:26:39 ===> lr=0.0002
+2022-05-13 15:26:39 ===> weight_decay=1e-05
+2022-05-13 15:26:39 ===> amsgrad=True
+2022-05-13 15:26:39 ===> criterion=softmax_dice
+2022-05-13 15:26:39 ===> num_class=4
+2022-05-13 15:26:39 ===> seed=1000
+2022-05-13 15:26:39 ===> no_cuda=False
+2022-05-13 15:26:39 ===> gpu=0,1,2,3
+2022-05-13 15:26:39 ===> num_workers=8
+2022-05-13 15:26:39 ===> batch_size=8
+2022-05-13 15:26:39 ===> start_epoch=0
+2022-05-13 15:26:39 ===> end_epoch=3
+2022-05-13 15:26:39 ===> save_freq=1000
+2022-05-13 15:26:39 ===> resume=
+2022-05-13 15:26:39 ===> load=True
+2022-05-13 15:26:39 ===> local_rank=0
+2022-05-13 15:26:39 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-13 15:26:39 ===> scale10+pe
+2022-05-13 15:26:39 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-13 15:26:39 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-13 15:26:42 ===> re-training!!!
+2022-05-13 15:26:42 ===> Samples for train = 10
+2022-05-13 15:26:44 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-13 15:26:44 ===> subset=10
+2022-05-13 15:26:44 ===> transforms=scale10+pe
+2022-05-13 15:26:44 ===> user=name of user
+2022-05-13 15:26:44 ===> experiment=TransBTS
+2022-05-13 15:26:44 ===> date=2022-05-13
+2022-05-13 15:26:44 ===> description=scale10+pe
+2022-05-13 15:26:44 ===> root=path to training set
+2022-05-13 15:26:44 ===> train_dir=Train
+2022-05-13 15:26:44 ===> valid_dir=Valid
+2022-05-13 15:26:44 ===> mode=train
+2022-05-13 15:26:44 ===> train_file=train.txt
+2022-05-13 15:26:44 ===> valid_file=valid.txt
+2022-05-13 15:26:44 ===> dataset=brats
+2022-05-13 15:26:44 ===> model_name=TransBTS
+2022-05-13 15:26:44 ===> input_C=4
+2022-05-13 15:26:44 ===> input_H=240
+2022-05-13 15:26:44 ===> input_W=240
+2022-05-13 15:26:44 ===> input_D=160
+2022-05-13 15:26:44 ===> crop_H=128
+2022-05-13 15:26:44 ===> crop_W=128
+2022-05-13 15:26:44 ===> crop_D=128
+2022-05-13 15:26:44 ===> output_D=155
+2022-05-13 15:26:44 ===> lr=0.0002
+2022-05-13 15:26:44 ===> weight_decay=1e-05
+2022-05-13 15:26:44 ===> amsgrad=True
+2022-05-13 15:26:44 ===> criterion=softmax_dice
+2022-05-13 15:26:44 ===> num_class=4
+2022-05-13 15:26:44 ===> seed=1000
+2022-05-13 15:26:44 ===> no_cuda=False
+2022-05-13 15:26:44 ===> gpu=0,1,2,3
+2022-05-13 15:26:44 ===> num_workers=8
+2022-05-13 15:26:44 ===> batch_size=8
+2022-05-13 15:26:44 ===> start_epoch=0
+2022-05-13 15:26:44 ===> end_epoch=3
+2022-05-13 15:26:44 ===> save_freq=1000
+2022-05-13 15:26:44 ===> resume=
+2022-05-13 15:26:44 ===> load=True
+2022-05-13 15:26:44 ===> local_rank=0
+2022-05-13 15:26:44 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-13 15:26:44 ===> scale10+pe
+2022-05-13 15:26:44 ===> Added key: store_based_barrier_key:1 to store for rank: 0

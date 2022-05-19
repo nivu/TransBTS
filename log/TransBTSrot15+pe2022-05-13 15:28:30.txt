@@ -1,0 +1,43 @@
+2022-05-13 15:28:30 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-13 15:28:30 ===> subset=10
+2022-05-13 15:28:30 ===> transforms=rot15+pe
+2022-05-13 15:28:30 ===> user=name of user
+2022-05-13 15:28:30 ===> experiment=TransBTS
+2022-05-13 15:28:30 ===> date=2022-05-13 15:28:30
+2022-05-13 15:28:30 ===> description=rot15+pe
+2022-05-13 15:28:30 ===> root=path to training set
+2022-05-13 15:28:30 ===> train_dir=Train
+2022-05-13 15:28:30 ===> valid_dir=Valid
+2022-05-13 15:28:30 ===> mode=train
+2022-05-13 15:28:30 ===> train_file=train.txt
+2022-05-13 15:28:30 ===> valid_file=valid.txt
+2022-05-13 15:28:30 ===> dataset=brats
+2022-05-13 15:28:30 ===> model_name=TransBTS
+2022-05-13 15:28:30 ===> input_C=4
+2022-05-13 15:28:30 ===> input_H=240
+2022-05-13 15:28:30 ===> input_W=240
+2022-05-13 15:28:30 ===> input_D=160
+2022-05-13 15:28:30 ===> crop_H=128
+2022-05-13 15:28:30 ===> crop_W=128
+2022-05-13 15:28:30 ===> crop_D=128
+2022-05-13 15:28:30 ===> output_D=155
+2022-05-13 15:28:30 ===> lr=0.0002
+2022-05-13 15:28:30 ===> weight_decay=1e-05
+2022-05-13 15:28:30 ===> amsgrad=True
+2022-05-13 15:28:30 ===> criterion=softmax_dice
+2022-05-13 15:28:30 ===> num_class=4
+2022-05-13 15:28:30 ===> seed=1000
+2022-05-13 15:28:30 ===> no_cuda=False
+2022-05-13 15:28:30 ===> gpu=0,1,2,3
+2022-05-13 15:28:30 ===> num_workers=8
+2022-05-13 15:28:30 ===> batch_size=8
+2022-05-13 15:28:30 ===> start_epoch=0
+2022-05-13 15:28:30 ===> end_epoch=3
+2022-05-13 15:28:30 ===> save_freq=1000
+2022-05-13 15:28:30 ===> resume=
+2022-05-13 15:28:30 ===> load=True
+2022-05-13 15:28:30 ===> local_rank=0
+2022-05-13 15:28:30 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-13 15:28:30 ===> rot15+pe
+2022-05-13 15:28:30 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-13 15:28:40 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)

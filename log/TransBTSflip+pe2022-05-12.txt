@@ -1,0 +1,186 @@
+2022-05-12 18:44:48 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:44:48 ===> subset=10
+2022-05-12 18:44:48 ===> transforms=flip+pe
+2022-05-12 18:44:48 ===> user=name of user
+2022-05-12 18:44:48 ===> experiment=TransBTS
+2022-05-12 18:44:48 ===> date=2022-05-12
+2022-05-12 18:44:48 ===> description=flip+pe
+2022-05-12 18:44:48 ===> root=path to training set
+2022-05-12 18:44:48 ===> train_dir=Train
+2022-05-12 18:44:48 ===> valid_dir=Valid
+2022-05-12 18:44:48 ===> mode=train
+2022-05-12 18:44:48 ===> train_file=train.txt
+2022-05-12 18:44:48 ===> valid_file=valid.txt
+2022-05-12 18:44:48 ===> dataset=brats
+2022-05-12 18:44:48 ===> model_name=TransBTS
+2022-05-12 18:44:48 ===> input_C=4
+2022-05-12 18:44:48 ===> input_H=240
+2022-05-12 18:44:48 ===> input_W=240
+2022-05-12 18:44:48 ===> input_D=160
+2022-05-12 18:44:48 ===> crop_H=128
+2022-05-12 18:44:48 ===> crop_W=128
+2022-05-12 18:44:48 ===> crop_D=128
+2022-05-12 18:44:48 ===> output_D=155
+2022-05-12 18:44:48 ===> lr=0.0002
+2022-05-12 18:44:48 ===> weight_decay=1e-05
+2022-05-12 18:44:48 ===> amsgrad=True
+2022-05-12 18:44:48 ===> criterion=softmax_dice
+2022-05-12 18:44:48 ===> num_class=4
+2022-05-12 18:44:48 ===> seed=1000
+2022-05-12 18:44:48 ===> no_cuda=False
+2022-05-12 18:44:48 ===> gpu=0,1,2,3
+2022-05-12 18:44:48 ===> num_workers=8
+2022-05-12 18:44:48 ===> batch_size=8
+2022-05-12 18:44:48 ===> start_epoch=0
+2022-05-12 18:44:48 ===> end_epoch=2
+2022-05-12 18:44:48 ===> save_freq=1000
+2022-05-12 18:44:48 ===> resume=
+2022-05-12 18:44:48 ===> load=True
+2022-05-12 18:44:48 ===> local_rank=0
+2022-05-12 18:44:48 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:44:48 ===> flip+pe
+2022-05-12 18:44:48 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:44:48 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:44:51 ===> re-training!!!
+2022-05-12 18:44:51 ===> Samples for train = 10
+2022-05-12 18:44:56 ===> Epoch: 0_Iter:0  loss: 1.46362 || 1:0.0098 | 2:0.0131 | 3:0.0135 ||
+2022-05-12 18:45:00 ===> Epoch: 0_Iter:1  loss: 1.45374 || 1:0.0139 | 2:0.0157 | 3:0.0166 ||
+2022-05-12 18:45:01 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:45:01 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:45:01 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:45:01 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:45:01 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:45:01 ===> Current epoch time consumption: 0.17 minutes!
+2022-05-12 18:45:01 ===> Estimated remaining training time: 0.00 hours!
+2022-05-12 18:45:03 ===> Epoch: 1_Iter:0  loss: 1.45371 || 1:0.0053 | 2:0.0279 | 3:0.0131 ||
+2022-05-12 18:45:03 ===> Epoch: 1_Iter:1  loss: 1.45549 || 1:0.0134 | 2:0.0139 | 3:0.0171 ||
+2022-05-12 18:45:05 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:45:05 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:45:05 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:45:05 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:45:05 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:45:05 ===> Current epoch time consumption: 0.04 minutes!
+2022-05-12 18:45:05 ===> Estimated remaining training time: 0.00 hours!
+2022-05-12 18:45:05 ===> The total training time is 0.00 hours
+2022-05-12 18:45:05 ===> ----------------------------------The training process finished!-----------------------------------
+2022-05-12 18:48:50 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:48:50 ===> subset=10
+2022-05-12 18:48:50 ===> transforms=flip+pe
+2022-05-12 18:48:50 ===> user=name of user
+2022-05-12 18:48:50 ===> experiment=TransBTS
+2022-05-12 18:48:50 ===> date=2022-05-12
+2022-05-12 18:48:50 ===> description=flip+pe
+2022-05-12 18:48:50 ===> root=path to training set
+2022-05-12 18:48:50 ===> train_dir=Train
+2022-05-12 18:48:50 ===> valid_dir=Valid
+2022-05-12 18:48:50 ===> mode=train
+2022-05-12 18:48:50 ===> train_file=train.txt
+2022-05-12 18:48:50 ===> valid_file=valid.txt
+2022-05-12 18:48:50 ===> dataset=brats
+2022-05-12 18:48:50 ===> model_name=TransBTS
+2022-05-12 18:48:50 ===> input_C=4
+2022-05-12 18:48:50 ===> input_H=240
+2022-05-12 18:48:50 ===> input_W=240
+2022-05-12 18:48:50 ===> input_D=160
+2022-05-12 18:48:50 ===> crop_H=128
+2022-05-12 18:48:50 ===> crop_W=128
+2022-05-12 18:48:50 ===> crop_D=128
+2022-05-12 18:48:50 ===> output_D=155
+2022-05-12 18:48:50 ===> lr=0.0002
+2022-05-12 18:48:50 ===> weight_decay=1e-05
+2022-05-12 18:48:50 ===> amsgrad=True
+2022-05-12 18:48:50 ===> criterion=softmax_dice
+2022-05-12 18:48:50 ===> num_class=4
+2022-05-12 18:48:50 ===> seed=1000
+2022-05-12 18:48:50 ===> no_cuda=False
+2022-05-12 18:48:50 ===> gpu=0,1,2,3
+2022-05-12 18:48:50 ===> num_workers=8
+2022-05-12 18:48:50 ===> batch_size=8
+2022-05-12 18:48:50 ===> start_epoch=0
+2022-05-12 18:48:50 ===> end_epoch=2
+2022-05-12 18:48:50 ===> save_freq=1000
+2022-05-12 18:48:50 ===> resume=
+2022-05-12 18:48:50 ===> load=True
+2022-05-12 18:48:50 ===> local_rank=0
+2022-05-12 18:48:50 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:48:50 ===> flip+pe
+2022-05-12 18:48:50 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:48:50 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:48:52 ===> re-training!!!
+2022-05-12 18:48:52 ===> Samples for train = 10
+2022-05-12 18:48:57 ===> Epoch: 0_Iter:0  loss: 1.46362 || 1:0.0098 | 2:0.0131 | 3:0.0135 ||
+2022-05-12 18:49:02 ===> Epoch: 0_Iter:1  loss: 1.45374 || 1:0.0139 | 2:0.0157 | 3:0.0166 ||
+2022-05-12 18:49:04 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:49:04 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:49:04 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:49:04 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:49:04 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:49:04 ===> Current epoch time consumption: 0.16 minutes!
+2022-05-12 18:49:04 ===> Estimated remaining training time: 0.00 hours!
+2022-05-12 18:49:06 ===> Epoch: 1_Iter:0  loss: 1.45370 || 1:0.0053 | 2:0.0279 | 3:0.0131 ||
+2022-05-12 18:49:06 ===> Epoch: 1_Iter:1  loss: 1.45549 || 1:0.0134 | 2:0.0139 | 3:0.0171 ||
+2022-05-12 18:49:09 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:49:09 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:49:09 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:49:09 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:49:09 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:49:09 ===> Current epoch time consumption: 0.04 minutes!
+2022-05-12 18:49:09 ===> Estimated remaining training time: 0.00 hours!
+2022-05-12 18:49:12 ===> The total training time is 0.01 hours
+2022-05-12 18:49:12 ===> ----------------------------------The training process finished!-----------------------------------
+2022-05-12 18:52:15 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:52:15 ===> subset=10
+2022-05-12 18:52:15 ===> transforms=flip+pe
+2022-05-12 18:52:15 ===> user=name of user
+2022-05-12 18:52:15 ===> experiment=TransBTS
+2022-05-12 18:52:15 ===> date=2022-05-12
+2022-05-12 18:52:15 ===> description=flip+pe
+2022-05-12 18:52:15 ===> root=path to training set
+2022-05-12 18:52:15 ===> train_dir=Train
+2022-05-12 18:52:15 ===> valid_dir=Valid
+2022-05-12 18:52:15 ===> mode=train
+2022-05-12 18:52:15 ===> train_file=train.txt
+2022-05-12 18:52:15 ===> valid_file=valid.txt
+2022-05-12 18:52:15 ===> dataset=brats
+2022-05-12 18:52:15 ===> model_name=TransBTS
+2022-05-12 18:52:15 ===> input_C=4
+2022-05-12 18:52:15 ===> input_H=240
+2022-05-12 18:52:15 ===> input_W=240
+2022-05-12 18:52:15 ===> input_D=160
+2022-05-12 18:52:15 ===> crop_H=128
+2022-05-12 18:52:15 ===> crop_W=128
+2022-05-12 18:52:15 ===> crop_D=128
+2022-05-12 18:52:15 ===> output_D=155
+2022-05-12 18:52:15 ===> lr=0.0002
+2022-05-12 18:52:15 ===> weight_decay=1e-05
+2022-05-12 18:52:15 ===> amsgrad=True
+2022-05-12 18:52:15 ===> criterion=softmax_dice
+2022-05-12 18:52:15 ===> num_class=4
+2022-05-12 18:52:15 ===> seed=1000
+2022-05-12 18:52:15 ===> no_cuda=False
+2022-05-12 18:52:15 ===> gpu=0,1,2,3
+2022-05-12 18:52:15 ===> num_workers=8
+2022-05-12 18:52:15 ===> batch_size=8
+2022-05-12 18:52:15 ===> start_epoch=0
+2022-05-12 18:52:15 ===> end_epoch=2
+2022-05-12 18:52:15 ===> save_freq=1000
+2022-05-12 18:52:15 ===> resume=
+2022-05-12 18:52:15 ===> load=True
+2022-05-12 18:52:15 ===> local_rank=0
+2022-05-12 18:52:15 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:52:15 ===> flip+pe
+2022-05-12 18:52:15 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:52:15 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:52:18 ===> re-training!!!
+2022-05-12 18:52:18 ===> Samples for train = 10
+2022-05-12 18:52:23 ===> Epoch: 0_Iter:0  loss: 1.46362 || 1:0.0098 | 2:0.0131 | 3:0.0135 ||
+2022-05-12 18:52:27 ===> Epoch: 0_Iter:1  loss: 1.45374 || 1:0.0139 | 2:0.0157 | 3:0.0166 ||
+2022-05-12 18:52:30 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:52:30 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:52:30 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:52:30 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:52:30 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:52:30 ===> Current epoch time consumption: 0.16 minutes!
+2022-05-12 18:52:30 ===> Estimated remaining training time: 0.00 hours!
+2022-05-12 18:52:31 ===> Epoch: 1_Iter:0  loss: 1.45370 || 1:0.0053 | 2:0.0279 | 3:0.0131 ||
+2022-05-12 18:52:32 ===> Epoch: 1_Iter:1  loss: 1.45549 || 1:0.0134 | 2:0.0139 | 3:0.0171 ||

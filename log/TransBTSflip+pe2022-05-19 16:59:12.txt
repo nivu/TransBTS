@@ -1,0 +1,137 @@
+2022-05-19 16:59:14 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-19 16:59:14 ===> subset=10
+2022-05-19 16:59:14 ===> transforms=flip+pe
+2022-05-19 16:59:14 ===> user=name of user
+2022-05-19 16:59:14 ===> experiment=TransBTS
+2022-05-19 16:59:14 ===> date=2022-05-19 16:59:12
+2022-05-19 16:59:14 ===> description=flip+pe
+2022-05-19 16:59:14 ===> root=path to training set
+2022-05-19 16:59:14 ===> train_dir=Train
+2022-05-19 16:59:14 ===> valid_dir=Valid
+2022-05-19 16:59:14 ===> mode=train
+2022-05-19 16:59:14 ===> train_file=train.txt
+2022-05-19 16:59:14 ===> valid_file=valid.txt
+2022-05-19 16:59:14 ===> dataset=brats
+2022-05-19 16:59:14 ===> model_name=TransBTS
+2022-05-19 16:59:14 ===> input_C=4
+2022-05-19 16:59:14 ===> input_H=240
+2022-05-19 16:59:14 ===> input_W=240
+2022-05-19 16:59:14 ===> input_D=160
+2022-05-19 16:59:14 ===> crop_H=128
+2022-05-19 16:59:14 ===> crop_W=128
+2022-05-19 16:59:14 ===> crop_D=128
+2022-05-19 16:59:14 ===> output_D=155
+2022-05-19 16:59:14 ===> lr=0.0002
+2022-05-19 16:59:14 ===> weight_decay=1e-05
+2022-05-19 16:59:14 ===> amsgrad=True
+2022-05-19 16:59:14 ===> criterion=softmax_dice
+2022-05-19 16:59:14 ===> num_class=4
+2022-05-19 16:59:14 ===> seed=1000
+2022-05-19 16:59:14 ===> no_cuda=False
+2022-05-19 16:59:14 ===> gpu=0,1,2,3
+2022-05-19 16:59:14 ===> num_workers=8
+2022-05-19 16:59:14 ===> batch_size=8
+2022-05-19 16:59:14 ===> start_epoch=0
+2022-05-19 16:59:14 ===> end_epoch=10
+2022-05-19 16:59:14 ===> save_freq=1000
+2022-05-19 16:59:14 ===> resume=
+2022-05-19 16:59:14 ===> load=True
+2022-05-19 16:59:14 ===> local_rank=0
+2022-05-19 16:59:14 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-19 16:59:14 ===> flip+pe
+2022-05-19 16:59:14 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-19 16:59:14 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-19 16:59:17 ===> re-training!!!
+2022-05-19 16:59:17 ===> Samples for train = 10
+2022-05-19 16:59:23 ===> Epoch: 0_Iter:0  loss: 1.46362 || 1:0.0098 | 2:0.0131 | 3:0.0135 ||
+2022-05-19 16:59:28 ===> Epoch: 0_Iter:1  loss: 1.45374 || 1:0.0139 | 2:0.0157 | 3:0.0166 ||
+2022-05-19 16:59:28 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:28 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:28 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:28 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:28 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:28 ===> Current epoch time consumption: 0.18 minutes!
+2022-05-19 16:59:28 ===> Estimated remaining training time: 0.03 hours!
+2022-05-19 16:59:30 ===> Epoch: 1_Iter:0  loss: 1.45371 || 1:0.0053 | 2:0.0279 | 3:0.0131 ||
+2022-05-19 16:59:31 ===> Epoch: 1_Iter:1  loss: 1.45490 || 1:0.0132 | 2:0.0146 | 3:0.0173 ||
+2022-05-19 16:59:32 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:32 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:32 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:32 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:32 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:32 ===> Current epoch time consumption: 0.06 minutes!
+2022-05-19 16:59:32 ===> Estimated remaining training time: 0.01 hours!
+2022-05-19 16:59:33 ===> Epoch: 2_Iter:0  loss: 1.44928 || 1:0.0122 | 2:0.0276 | 3:0.0109 ||
+2022-05-19 16:59:34 ===> Epoch: 2_Iter:1  loss: 1.45309 || 1:0.0115 | 2:0.0212 | 3:0.0142 ||
+2022-05-19 16:59:35 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:35 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:35 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:35 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:35 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:35 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-19 16:59:35 ===> Estimated remaining training time: 0.01 hours!
+2022-05-19 16:59:36 ===> Epoch: 3_Iter:0  loss: 1.44851 || 1:0.0069 | 2:0.0299 | 3:0.0148 ||
+2022-05-19 16:59:37 ===> Epoch: 3_Iter:1  loss: 1.45124 || 1:0.0209 | 2:0.0222 | 3:0.0056 ||
+2022-05-19 16:59:38 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:38 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:38 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:38 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:38 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:38 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-19 16:59:38 ===> Estimated remaining training time: 0.01 hours!
+2022-05-19 16:59:40 ===> Epoch: 4_Iter:0  loss: 1.42741 || 1:0.0174 | 2:0.0358 | 3:0.0195 ||
+2022-05-19 16:59:40 ===> Epoch: 4_Iter:1  loss: 1.42975 || 1:0.0126 | 2:0.0422 | 3:0.0154 ||
+2022-05-19 16:59:41 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:41 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:41 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:41 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:41 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:41 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-19 16:59:41 ===> Estimated remaining training time: 0.00 hours!
+2022-05-19 16:59:43 ===> Epoch: 5_Iter:0  loss: 1.45469 || 1:0.0080 | 2:0.0308 | 3:0.0065 ||
+2022-05-19 16:59:43 ===> Epoch: 5_Iter:1  loss: 1.42256 || 1:0.0092 | 2:0.0433 | 3:0.0249 ||
+2022-05-19 16:59:44 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:44 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:44 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:44 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:44 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:44 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-19 16:59:44 ===> Estimated remaining training time: 0.00 hours!
+2022-05-19 16:59:46 ===> Epoch: 6_Iter:0  loss: 1.43674 || 1:0.0076 | 2:0.0404 | 3:0.0152 ||
+2022-05-19 16:59:47 ===> Epoch: 6_Iter:1  loss: 1.40319 || 1:0.0188 | 2:0.0639 | 3:0.0141 ||
+2022-05-19 16:59:48 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:48 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:48 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:48 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:48 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:48 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-19 16:59:48 ===> Estimated remaining training time: 0.00 hours!
+2022-05-19 16:59:50 ===> Epoch: 7_Iter:0  loss: 1.42446 || 1:0.0042 | 2:0.0446 | 3:0.0267 ||
+2022-05-19 16:59:50 ===> Epoch: 7_Iter:1  loss: 1.41552 || 1:0.0128 | 2:0.0593 | 3:0.0123 ||
+2022-05-19 16:59:52 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:52 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:52 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:52 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:52 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:52 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-19 16:59:52 ===> Estimated remaining training time: 0.00 hours!
+2022-05-19 16:59:53 ===> Epoch: 8_Iter:0  loss: 1.41473 || 1:0.0095 | 2:0.0592 | 3:0.0166 ||
+2022-05-19 16:59:54 ===> Epoch: 8_Iter:1  loss: 1.38957 || 1:0.0047 | 2:0.0847 | 3:0.0210 ||
+2022-05-19 16:59:55 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:55 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:55 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:55 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:55 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:55 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-19 16:59:55 ===> Estimated remaining training time: 0.00 hours!
+2022-05-19 16:59:57 ===> Epoch: 9_Iter:0  loss: 1.39924 || 1:0.0175 | 2:0.0621 | 3:0.0211 ||
+2022-05-19 16:59:58 ===> Epoch: 9_Iter:1  loss: 1.39983 || 1:0.0124 | 2:0.0759 | 3:0.0118 ||
+2022-05-19 16:59:58 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-19 16:59:58 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-19 16:59:58 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-19 16:59:58 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-19 16:59:58 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-19 16:59:58 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-19 16:59:58 ===> Estimated remaining training time: 0.00 hours!
+2022-05-19 16:59:59 ===> The total training time is 0.01 hours
+2022-05-19 16:59:59 ===> ----------------------------------The training process finished!-----------------------------------

@@ -1,0 +1,146 @@
+2022-05-12 18:45:09 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:45:09 ===> subset=10
+2022-05-12 18:45:09 ===> transforms=bright+pe
+2022-05-12 18:45:09 ===> user=name of user
+2022-05-12 18:45:09 ===> experiment=TransBTS
+2022-05-12 18:45:09 ===> date=2022-05-12
+2022-05-12 18:45:09 ===> description=bright+pe
+2022-05-12 18:45:09 ===> root=path to training set
+2022-05-12 18:45:09 ===> train_dir=Train
+2022-05-12 18:45:09 ===> valid_dir=Valid
+2022-05-12 18:45:09 ===> mode=train
+2022-05-12 18:45:09 ===> train_file=train.txt
+2022-05-12 18:45:09 ===> valid_file=valid.txt
+2022-05-12 18:45:09 ===> dataset=brats
+2022-05-12 18:45:09 ===> model_name=TransBTS
+2022-05-12 18:45:09 ===> input_C=4
+2022-05-12 18:45:09 ===> input_H=240
+2022-05-12 18:45:09 ===> input_W=240
+2022-05-12 18:45:09 ===> input_D=160
+2022-05-12 18:45:09 ===> crop_H=128
+2022-05-12 18:45:09 ===> crop_W=128
+2022-05-12 18:45:09 ===> crop_D=128
+2022-05-12 18:45:09 ===> output_D=155
+2022-05-12 18:45:09 ===> lr=0.0002
+2022-05-12 18:45:09 ===> weight_decay=1e-05
+2022-05-12 18:45:09 ===> amsgrad=True
+2022-05-12 18:45:09 ===> criterion=softmax_dice
+2022-05-12 18:45:09 ===> num_class=4
+2022-05-12 18:45:09 ===> seed=1000
+2022-05-12 18:45:09 ===> no_cuda=False
+2022-05-12 18:45:09 ===> gpu=0,1,2,3
+2022-05-12 18:45:09 ===> num_workers=8
+2022-05-12 18:45:09 ===> batch_size=8
+2022-05-12 18:45:09 ===> start_epoch=0
+2022-05-12 18:45:09 ===> end_epoch=2
+2022-05-12 18:45:09 ===> save_freq=1000
+2022-05-12 18:45:09 ===> resume=
+2022-05-12 18:45:09 ===> load=True
+2022-05-12 18:45:09 ===> local_rank=0
+2022-05-12 18:45:09 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:45:09 ===> bright+pe
+2022-05-12 18:45:09 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:45:09 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:45:12 ===> re-training!!!
+2022-05-12 18:45:12 ===> Samples for train = 10
+2022-05-12 18:45:17 ===> Epoch: 0_Iter:0  loss: nan || 1:nan | 2:nan | 3:nan ||
+2022-05-12 18:45:21 ===> Epoch: 0_Iter:1  loss: nan || 1:nan | 2:nan | 3:nan ||
+2022-05-12 18:45:24 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:45:24 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:45:24 ===> NaN or Inf found in input tensor.
+2022-05-12 18:45:24 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:45:24 ===> NaN or Inf found in input tensor.
+2022-05-12 18:45:24 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:45:24 ===> NaN or Inf found in input tensor.
+2022-05-12 18:45:24 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:45:24 ===> NaN or Inf found in input tensor.
+2022-05-12 18:45:24 ===> Current epoch time consumption: 0.17 minutes!
+2022-05-12 18:45:24 ===> Estimated remaining training time: 0.00 hours!
+2022-05-12 18:45:26 ===> Epoch: 1_Iter:0  loss: nan || 1:nan | 2:nan | 3:nan ||
+2022-05-12 18:45:26 ===> Epoch: 1_Iter:1  loss: nan || 1:nan | 2:nan | 3:nan ||
+2022-05-12 18:45:29 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:45:29 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:45:29 ===> NaN or Inf found in input tensor.
+2022-05-12 18:45:29 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:45:29 ===> NaN or Inf found in input tensor.
+2022-05-12 18:45:29 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:45:29 ===> NaN or Inf found in input tensor.
+2022-05-12 18:45:29 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:45:29 ===> NaN or Inf found in input tensor.
+2022-05-12 18:45:29 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-12 18:45:29 ===> Estimated remaining training time: 0.00 hours!
+2022-05-12 18:45:31 ===> The total training time is 0.01 hours
+2022-05-12 18:45:31 ===> ----------------------------------The training process finished!-----------------------------------
+2022-05-12 18:49:16 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:49:16 ===> subset=10
+2022-05-12 18:49:16 ===> transforms=bright+pe
+2022-05-12 18:49:16 ===> user=name of user
+2022-05-12 18:49:16 ===> experiment=TransBTS
+2022-05-12 18:49:16 ===> date=2022-05-12
+2022-05-12 18:49:16 ===> description=bright+pe
+2022-05-12 18:49:16 ===> root=path to training set
+2022-05-12 18:49:16 ===> train_dir=Train
+2022-05-12 18:49:16 ===> valid_dir=Valid
+2022-05-12 18:49:16 ===> mode=train
+2022-05-12 18:49:16 ===> train_file=train.txt
+2022-05-12 18:49:16 ===> valid_file=valid.txt
+2022-05-12 18:49:16 ===> dataset=brats
+2022-05-12 18:49:16 ===> model_name=TransBTS
+2022-05-12 18:49:16 ===> input_C=4
+2022-05-12 18:49:16 ===> input_H=240
+2022-05-12 18:49:16 ===> input_W=240
+2022-05-12 18:49:16 ===> input_D=160
+2022-05-12 18:49:16 ===> crop_H=128
+2022-05-12 18:49:16 ===> crop_W=128
+2022-05-12 18:49:16 ===> crop_D=128
+2022-05-12 18:49:16 ===> output_D=155
+2022-05-12 18:49:16 ===> lr=0.0002
+2022-05-12 18:49:16 ===> weight_decay=1e-05
+2022-05-12 18:49:16 ===> amsgrad=True
+2022-05-12 18:49:16 ===> criterion=softmax_dice
+2022-05-12 18:49:16 ===> num_class=4
+2022-05-12 18:49:16 ===> seed=1000
+2022-05-12 18:49:16 ===> no_cuda=False
+2022-05-12 18:49:16 ===> gpu=0,1,2,3
+2022-05-12 18:49:16 ===> num_workers=8
+2022-05-12 18:49:16 ===> batch_size=8
+2022-05-12 18:49:16 ===> start_epoch=0
+2022-05-12 18:49:16 ===> end_epoch=2
+2022-05-12 18:49:16 ===> save_freq=1000
+2022-05-12 18:49:16 ===> resume=
+2022-05-12 18:49:16 ===> load=True
+2022-05-12 18:49:16 ===> local_rank=0
+2022-05-12 18:49:16 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:49:16 ===> bright+pe
+2022-05-12 18:49:16 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:49:16 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:49:18 ===> re-training!!!
+2022-05-12 18:49:18 ===> Samples for train = 10
+2022-05-12 18:49:24 ===> Epoch: 0_Iter:0  loss: nan || 1:nan | 2:nan | 3:nan ||
+2022-05-12 18:49:28 ===> Epoch: 0_Iter:1  loss: nan || 1:nan | 2:nan | 3:nan ||
+2022-05-12 18:49:31 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:49:31 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:49:31 ===> NaN or Inf found in input tensor.
+2022-05-12 18:49:31 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:49:31 ===> NaN or Inf found in input tensor.
+2022-05-12 18:49:31 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:49:31 ===> NaN or Inf found in input tensor.
+2022-05-12 18:49:31 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:49:31 ===> NaN or Inf found in input tensor.
+2022-05-12 18:49:31 ===> Current epoch time consumption: 0.17 minutes!
+2022-05-12 18:49:31 ===> Estimated remaining training time: 0.00 hours!
+2022-05-12 18:49:32 ===> Epoch: 1_Iter:0  loss: nan || 1:nan | 2:nan | 3:nan ||
+2022-05-12 18:49:33 ===> Epoch: 1_Iter:1  loss: nan || 1:nan | 2:nan | 3:nan ||
+2022-05-12 18:49:36 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:49:36 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:49:36 ===> NaN or Inf found in input tensor.
+2022-05-12 18:49:36 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:49:36 ===> NaN or Inf found in input tensor.
+2022-05-12 18:49:36 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:49:36 ===> NaN or Inf found in input tensor.
+2022-05-12 18:49:36 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:49:36 ===> NaN or Inf found in input tensor.
+2022-05-12 18:49:36 ===> Current epoch time consumption: 0.05 minutes!
+2022-05-12 18:49:36 ===> Estimated remaining training time: 0.00 hours!
+2022-05-12 18:49:38 ===> The total training time is 0.01 hours
+2022-05-12 18:49:38 ===> ----------------------------------The training process finished!-----------------------------------

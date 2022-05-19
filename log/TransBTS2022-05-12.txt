@@ -1,0 +1,840 @@
+2022-05-12 18:31:12 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:31:12 ===> subset=100
+2022-05-12 18:31:12 ===> transforms=flip+pe
+2022-05-12 18:31:12 ===> user=name of user
+2022-05-12 18:31:12 ===> experiment=TransBTS
+2022-05-12 18:31:12 ===> date=2022-05-12
+2022-05-12 18:31:12 ===> description=flip+pe
+2022-05-12 18:31:12 ===> root=path to training set
+2022-05-12 18:31:12 ===> train_dir=Train
+2022-05-12 18:31:12 ===> valid_dir=Valid
+2022-05-12 18:31:12 ===> mode=train
+2022-05-12 18:31:12 ===> train_file=train.txt
+2022-05-12 18:31:12 ===> valid_file=valid.txt
+2022-05-12 18:31:12 ===> dataset=brats
+2022-05-12 18:31:12 ===> model_name=TransBTS
+2022-05-12 18:31:12 ===> input_C=4
+2022-05-12 18:31:12 ===> input_H=240
+2022-05-12 18:31:12 ===> input_W=240
+2022-05-12 18:31:12 ===> input_D=160
+2022-05-12 18:31:12 ===> crop_H=128
+2022-05-12 18:31:12 ===> crop_W=128
+2022-05-12 18:31:12 ===> crop_D=128
+2022-05-12 18:31:12 ===> output_D=155
+2022-05-12 18:31:12 ===> lr=0.0002
+2022-05-12 18:31:12 ===> weight_decay=1e-05
+2022-05-12 18:31:12 ===> amsgrad=True
+2022-05-12 18:31:12 ===> criterion=softmax_dice
+2022-05-12 18:31:12 ===> num_class=4
+2022-05-12 18:31:12 ===> seed=1000
+2022-05-12 18:31:12 ===> no_cuda=False
+2022-05-12 18:31:12 ===> gpu=0,1,2,3
+2022-05-12 18:31:12 ===> num_workers=8
+2022-05-12 18:31:12 ===> batch_size=8
+2022-05-12 18:31:12 ===> start_epoch=0
+2022-05-12 18:31:12 ===> end_epoch=1000
+2022-05-12 18:31:12 ===> save_freq=1000
+2022-05-12 18:31:12 ===> resume=
+2022-05-12 18:31:12 ===> load=True
+2022-05-12 18:31:12 ===> local_rank=0
+2022-05-12 18:31:12 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:31:12 ===> flip+pe
+2022-05-12 18:31:12 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:31:12 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:31:15 ===> re-training!!!
+2022-05-12 18:31:17 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:31:17 ===> subset=100
+2022-05-12 18:31:17 ===> transforms=flip+pe
+2022-05-12 18:31:17 ===> user=name of user
+2022-05-12 18:31:17 ===> experiment=TransBTS
+2022-05-12 18:31:17 ===> date=2022-05-12
+2022-05-12 18:31:17 ===> description=flip+pe
+2022-05-12 18:31:17 ===> root=path to training set
+2022-05-12 18:31:17 ===> train_dir=Train
+2022-05-12 18:31:17 ===> valid_dir=Valid
+2022-05-12 18:31:17 ===> mode=train
+2022-05-12 18:31:17 ===> train_file=train.txt
+2022-05-12 18:31:17 ===> valid_file=valid.txt
+2022-05-12 18:31:17 ===> dataset=brats
+2022-05-12 18:31:17 ===> model_name=TransBTS
+2022-05-12 18:31:17 ===> input_C=4
+2022-05-12 18:31:17 ===> input_H=240
+2022-05-12 18:31:17 ===> input_W=240
+2022-05-12 18:31:17 ===> input_D=160
+2022-05-12 18:31:17 ===> crop_H=128
+2022-05-12 18:31:17 ===> crop_W=128
+2022-05-12 18:31:17 ===> crop_D=128
+2022-05-12 18:31:17 ===> output_D=155
+2022-05-12 18:31:17 ===> lr=0.0002
+2022-05-12 18:31:17 ===> weight_decay=1e-05
+2022-05-12 18:31:17 ===> amsgrad=True
+2022-05-12 18:31:17 ===> criterion=softmax_dice
+2022-05-12 18:31:17 ===> num_class=4
+2022-05-12 18:31:17 ===> seed=1000
+2022-05-12 18:31:17 ===> no_cuda=False
+2022-05-12 18:31:17 ===> gpu=0,1,2,3
+2022-05-12 18:31:17 ===> num_workers=8
+2022-05-12 18:31:17 ===> batch_size=8
+2022-05-12 18:31:17 ===> start_epoch=0
+2022-05-12 18:31:17 ===> end_epoch=1000
+2022-05-12 18:31:17 ===> save_freq=1000
+2022-05-12 18:31:17 ===> resume=
+2022-05-12 18:31:17 ===> load=True
+2022-05-12 18:31:17 ===> local_rank=0
+2022-05-12 18:31:17 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:31:17 ===> flip+pe
+2022-05-12 18:31:17 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:31:27 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:31:37 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:31:47 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:31:57 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:32:07 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:32:17 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:32:27 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:32:37 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:32:47 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:32:57 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:33:07 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:33:17 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:33:27 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:33:37 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:33:47 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:33:57 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:34:07 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:34:17 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:34:30 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:34:30 ===> subset=100
+2022-05-12 18:34:30 ===> transforms=flip+pe
+2022-05-12 18:34:30 ===> user=name of user
+2022-05-12 18:34:30 ===> experiment=TransBTS
+2022-05-12 18:34:30 ===> date=2022-05-12
+2022-05-12 18:34:30 ===> description=flip+pe
+2022-05-12 18:34:30 ===> root=TransBTS/data/train.txt
+2022-05-12 18:34:30 ===> train_dir=Train
+2022-05-12 18:34:30 ===> valid_dir=Valid
+2022-05-12 18:34:30 ===> mode=train
+2022-05-12 18:34:30 ===> train_file=train.txt
+2022-05-12 18:34:30 ===> valid_file=valid.txt
+2022-05-12 18:34:30 ===> dataset=brats
+2022-05-12 18:34:30 ===> model_name=TransBTS
+2022-05-12 18:34:30 ===> input_C=4
+2022-05-12 18:34:30 ===> input_H=240
+2022-05-12 18:34:30 ===> input_W=240
+2022-05-12 18:34:30 ===> input_D=160
+2022-05-12 18:34:30 ===> crop_H=128
+2022-05-12 18:34:30 ===> crop_W=128
+2022-05-12 18:34:30 ===> crop_D=128
+2022-05-12 18:34:30 ===> output_D=155
+2022-05-12 18:34:30 ===> lr=0.0002
+2022-05-12 18:34:30 ===> weight_decay=1e-05
+2022-05-12 18:34:30 ===> amsgrad=True
+2022-05-12 18:34:30 ===> criterion=softmax_dice
+2022-05-12 18:34:30 ===> num_class=4
+2022-05-12 18:34:30 ===> seed=1000
+2022-05-12 18:34:30 ===> no_cuda=False
+2022-05-12 18:34:30 ===> gpu=0,1,2,3
+2022-05-12 18:34:30 ===> num_workers=8
+2022-05-12 18:34:30 ===> batch_size=8
+2022-05-12 18:34:30 ===> start_epoch=0
+2022-05-12 18:34:30 ===> end_epoch=1000
+2022-05-12 18:34:30 ===> save_freq=1000
+2022-05-12 18:34:30 ===> resume=
+2022-05-12 18:34:30 ===> load=True
+2022-05-12 18:34:30 ===> local_rank=0
+2022-05-12 18:34:30 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:34:30 ===> flip+pe
+2022-05-12 18:34:30 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:34:30 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:34:32 ===> re-training!!!
+2022-05-12 18:34:35 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:34:35 ===> subset=100
+2022-05-12 18:34:35 ===> transforms=flip+pe
+2022-05-12 18:34:35 ===> user=name of user
+2022-05-12 18:34:35 ===> experiment=TransBTS
+2022-05-12 18:34:35 ===> date=2022-05-12
+2022-05-12 18:34:35 ===> description=flip+pe
+2022-05-12 18:34:35 ===> root=TransBTS/data/train.txt
+2022-05-12 18:34:35 ===> train_dir=Train
+2022-05-12 18:34:35 ===> valid_dir=Valid
+2022-05-12 18:34:35 ===> mode=train
+2022-05-12 18:34:35 ===> train_file=train.txt
+2022-05-12 18:34:35 ===> valid_file=valid.txt
+2022-05-12 18:34:35 ===> dataset=brats
+2022-05-12 18:34:35 ===> model_name=TransBTS
+2022-05-12 18:34:35 ===> input_C=4
+2022-05-12 18:34:35 ===> input_H=240
+2022-05-12 18:34:35 ===> input_W=240
+2022-05-12 18:34:35 ===> input_D=160
+2022-05-12 18:34:35 ===> crop_H=128
+2022-05-12 18:34:35 ===> crop_W=128
+2022-05-12 18:34:35 ===> crop_D=128
+2022-05-12 18:34:35 ===> output_D=155
+2022-05-12 18:34:35 ===> lr=0.0002
+2022-05-12 18:34:35 ===> weight_decay=1e-05
+2022-05-12 18:34:35 ===> amsgrad=True
+2022-05-12 18:34:35 ===> criterion=softmax_dice
+2022-05-12 18:34:35 ===> num_class=4
+2022-05-12 18:34:35 ===> seed=1000
+2022-05-12 18:34:35 ===> no_cuda=False
+2022-05-12 18:34:35 ===> gpu=0,1,2,3
+2022-05-12 18:34:35 ===> num_workers=8
+2022-05-12 18:34:35 ===> batch_size=8
+2022-05-12 18:34:35 ===> start_epoch=0
+2022-05-12 18:34:35 ===> end_epoch=1000
+2022-05-12 18:34:35 ===> save_freq=1000
+2022-05-12 18:34:35 ===> resume=
+2022-05-12 18:34:35 ===> load=True
+2022-05-12 18:34:35 ===> local_rank=0
+2022-05-12 18:34:35 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:34:35 ===> flip+pe
+2022-05-12 18:34:35 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:34:45 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:36:59 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:36:59 ===> subset=100
+2022-05-12 18:36:59 ===> transforms=flip+pe
+2022-05-12 18:36:59 ===> user=name of user
+2022-05-12 18:36:59 ===> experiment=TransBTS
+2022-05-12 18:36:59 ===> date=2022-05-12
+2022-05-12 18:36:59 ===> description=flip+pe
+2022-05-12 18:36:59 ===> root=path to training set
+2022-05-12 18:36:59 ===> train_dir=Train
+2022-05-12 18:36:59 ===> valid_dir=Valid
+2022-05-12 18:36:59 ===> mode=train
+2022-05-12 18:36:59 ===> train_file=train.txt
+2022-05-12 18:36:59 ===> valid_file=valid.txt
+2022-05-12 18:36:59 ===> dataset=brats
+2022-05-12 18:36:59 ===> model_name=TransBTS
+2022-05-12 18:36:59 ===> input_C=4
+2022-05-12 18:36:59 ===> input_H=240
+2022-05-12 18:36:59 ===> input_W=240
+2022-05-12 18:36:59 ===> input_D=160
+2022-05-12 18:36:59 ===> crop_H=128
+2022-05-12 18:36:59 ===> crop_W=128
+2022-05-12 18:36:59 ===> crop_D=128
+2022-05-12 18:36:59 ===> output_D=155
+2022-05-12 18:36:59 ===> lr=0.0002
+2022-05-12 18:36:59 ===> weight_decay=1e-05
+2022-05-12 18:36:59 ===> amsgrad=True
+2022-05-12 18:36:59 ===> criterion=softmax_dice
+2022-05-12 18:36:59 ===> num_class=4
+2022-05-12 18:36:59 ===> seed=1000
+2022-05-12 18:36:59 ===> no_cuda=False
+2022-05-12 18:36:59 ===> gpu=0,1,2,3
+2022-05-12 18:36:59 ===> num_workers=8
+2022-05-12 18:36:59 ===> batch_size=8
+2022-05-12 18:36:59 ===> start_epoch=0
+2022-05-12 18:36:59 ===> end_epoch=1000
+2022-05-12 18:36:59 ===> save_freq=1000
+2022-05-12 18:36:59 ===> resume=
+2022-05-12 18:36:59 ===> load=True
+2022-05-12 18:36:59 ===> local_rank=0
+2022-05-12 18:36:59 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:36:59 ===> flip+pe
+2022-05-12 18:36:59 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:36:59 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:37:02 ===> re-training!!!
+2022-05-12 18:37:04 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:37:04 ===> subset=100
+2022-05-12 18:37:04 ===> transforms=flip+pe
+2022-05-12 18:37:04 ===> user=name of user
+2022-05-12 18:37:04 ===> experiment=TransBTS
+2022-05-12 18:37:04 ===> date=2022-05-12
+2022-05-12 18:37:04 ===> description=flip+pe
+2022-05-12 18:37:04 ===> root=path to training set
+2022-05-12 18:37:04 ===> train_dir=Train
+2022-05-12 18:37:04 ===> valid_dir=Valid
+2022-05-12 18:37:04 ===> mode=train
+2022-05-12 18:37:04 ===> train_file=train.txt
+2022-05-12 18:37:04 ===> valid_file=valid.txt
+2022-05-12 18:37:04 ===> dataset=brats
+2022-05-12 18:37:04 ===> model_name=TransBTS
+2022-05-12 18:37:04 ===> input_C=4
+2022-05-12 18:37:04 ===> input_H=240
+2022-05-12 18:37:04 ===> input_W=240
+2022-05-12 18:37:04 ===> input_D=160
+2022-05-12 18:37:04 ===> crop_H=128
+2022-05-12 18:37:04 ===> crop_W=128
+2022-05-12 18:37:04 ===> crop_D=128
+2022-05-12 18:37:04 ===> output_D=155
+2022-05-12 18:37:04 ===> lr=0.0002
+2022-05-12 18:37:04 ===> weight_decay=1e-05
+2022-05-12 18:37:04 ===> amsgrad=True
+2022-05-12 18:37:04 ===> criterion=softmax_dice
+2022-05-12 18:37:04 ===> num_class=4
+2022-05-12 18:37:04 ===> seed=1000
+2022-05-12 18:37:04 ===> no_cuda=False
+2022-05-12 18:37:04 ===> gpu=0,1,2,3
+2022-05-12 18:37:04 ===> num_workers=8
+2022-05-12 18:37:04 ===> batch_size=8
+2022-05-12 18:37:04 ===> start_epoch=0
+2022-05-12 18:37:04 ===> end_epoch=1000
+2022-05-12 18:37:04 ===> save_freq=1000
+2022-05-12 18:37:04 ===> resume=
+2022-05-12 18:37:04 ===> load=True
+2022-05-12 18:37:04 ===> local_rank=0
+2022-05-12 18:37:04 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:37:04 ===> flip+pe
+2022-05-12 18:37:04 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:37:14 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:37:24 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:38:02 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:38:02 ===> subset=100
+2022-05-12 18:38:02 ===> transforms=flip+pe
+2022-05-12 18:38:02 ===> user=name of user
+2022-05-12 18:38:02 ===> experiment=TransBTS
+2022-05-12 18:38:02 ===> date=2022-05-12
+2022-05-12 18:38:02 ===> description=flip+pe
+2022-05-12 18:38:02 ===> root=path to training set
+2022-05-12 18:38:02 ===> train_dir=Train
+2022-05-12 18:38:02 ===> valid_dir=Valid
+2022-05-12 18:38:02 ===> mode=train
+2022-05-12 18:38:02 ===> train_file=train.txt
+2022-05-12 18:38:02 ===> valid_file=valid.txt
+2022-05-12 18:38:02 ===> dataset=brats
+2022-05-12 18:38:02 ===> model_name=TransBTS
+2022-05-12 18:38:02 ===> input_C=4
+2022-05-12 18:38:02 ===> input_H=240
+2022-05-12 18:38:02 ===> input_W=240
+2022-05-12 18:38:02 ===> input_D=160
+2022-05-12 18:38:02 ===> crop_H=128
+2022-05-12 18:38:02 ===> crop_W=128
+2022-05-12 18:38:02 ===> crop_D=128
+2022-05-12 18:38:02 ===> output_D=155
+2022-05-12 18:38:02 ===> lr=0.0002
+2022-05-12 18:38:02 ===> weight_decay=1e-05
+2022-05-12 18:38:02 ===> amsgrad=True
+2022-05-12 18:38:02 ===> criterion=softmax_dice
+2022-05-12 18:38:02 ===> num_class=4
+2022-05-12 18:38:02 ===> seed=1000
+2022-05-12 18:38:02 ===> no_cuda=False
+2022-05-12 18:38:02 ===> gpu=0,1,2,3
+2022-05-12 18:38:02 ===> num_workers=8
+2022-05-12 18:38:02 ===> batch_size=8
+2022-05-12 18:38:02 ===> start_epoch=0
+2022-05-12 18:38:02 ===> end_epoch=1000
+2022-05-12 18:38:02 ===> save_freq=1000
+2022-05-12 18:38:02 ===> resume=
+2022-05-12 18:38:02 ===> load=True
+2022-05-12 18:38:02 ===> local_rank=0
+2022-05-12 18:38:02 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:38:02 ===> flip+pe
+2022-05-12 18:38:02 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:38:02 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:38:05 ===> re-training!!!
+2022-05-12 18:38:05 ===> Samples for train = 100
+2022-05-12 18:38:07 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:38:07 ===> subset=100
+2022-05-12 18:38:07 ===> transforms=flip+pe
+2022-05-12 18:38:07 ===> user=name of user
+2022-05-12 18:38:07 ===> experiment=TransBTS
+2022-05-12 18:38:07 ===> date=2022-05-12
+2022-05-12 18:38:07 ===> description=flip+pe
+2022-05-12 18:38:07 ===> root=path to training set
+2022-05-12 18:38:07 ===> train_dir=Train
+2022-05-12 18:38:07 ===> valid_dir=Valid
+2022-05-12 18:38:07 ===> mode=train
+2022-05-12 18:38:07 ===> train_file=train.txt
+2022-05-12 18:38:07 ===> valid_file=valid.txt
+2022-05-12 18:38:07 ===> dataset=brats
+2022-05-12 18:38:07 ===> model_name=TransBTS
+2022-05-12 18:38:07 ===> input_C=4
+2022-05-12 18:38:07 ===> input_H=240
+2022-05-12 18:38:07 ===> input_W=240
+2022-05-12 18:38:07 ===> input_D=160
+2022-05-12 18:38:07 ===> crop_H=128
+2022-05-12 18:38:07 ===> crop_W=128
+2022-05-12 18:38:07 ===> crop_D=128
+2022-05-12 18:38:07 ===> output_D=155
+2022-05-12 18:38:07 ===> lr=0.0002
+2022-05-12 18:38:07 ===> weight_decay=1e-05
+2022-05-12 18:38:07 ===> amsgrad=True
+2022-05-12 18:38:07 ===> criterion=softmax_dice
+2022-05-12 18:38:07 ===> num_class=4
+2022-05-12 18:38:07 ===> seed=1000
+2022-05-12 18:38:07 ===> no_cuda=False
+2022-05-12 18:38:07 ===> gpu=0,1,2,3
+2022-05-12 18:38:07 ===> num_workers=8
+2022-05-12 18:38:07 ===> batch_size=8
+2022-05-12 18:38:07 ===> start_epoch=0
+2022-05-12 18:38:07 ===> end_epoch=1000
+2022-05-12 18:38:07 ===> save_freq=1000
+2022-05-12 18:38:07 ===> resume=
+2022-05-12 18:38:07 ===> load=True
+2022-05-12 18:38:07 ===> local_rank=0
+2022-05-12 18:38:07 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:38:07 ===> flip+pe
+2022-05-12 18:38:07 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:39:06 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:39:06 ===> subset=100
+2022-05-12 18:39:06 ===> transforms=flip+pe
+2022-05-12 18:39:06 ===> user=name of user
+2022-05-12 18:39:06 ===> experiment=TransBTS
+2022-05-12 18:39:06 ===> date=2022-05-12
+2022-05-12 18:39:06 ===> description=flip+pe
+2022-05-12 18:39:06 ===> root=path to training set
+2022-05-12 18:39:06 ===> train_dir=Train
+2022-05-12 18:39:06 ===> valid_dir=Valid
+2022-05-12 18:39:06 ===> mode=train
+2022-05-12 18:39:06 ===> train_file=train.txt
+2022-05-12 18:39:06 ===> valid_file=valid.txt
+2022-05-12 18:39:06 ===> dataset=brats
+2022-05-12 18:39:06 ===> model_name=TransBTS
+2022-05-12 18:39:06 ===> input_C=4
+2022-05-12 18:39:06 ===> input_H=240
+2022-05-12 18:39:06 ===> input_W=240
+2022-05-12 18:39:06 ===> input_D=160
+2022-05-12 18:39:06 ===> crop_H=128
+2022-05-12 18:39:06 ===> crop_W=128
+2022-05-12 18:39:06 ===> crop_D=128
+2022-05-12 18:39:06 ===> output_D=155
+2022-05-12 18:39:06 ===> lr=0.0002
+2022-05-12 18:39:06 ===> weight_decay=1e-05
+2022-05-12 18:39:06 ===> amsgrad=True
+2022-05-12 18:39:06 ===> criterion=softmax_dice
+2022-05-12 18:39:06 ===> num_class=4
+2022-05-12 18:39:06 ===> seed=1000
+2022-05-12 18:39:06 ===> no_cuda=False
+2022-05-12 18:39:06 ===> gpu=0,1,2,3
+2022-05-12 18:39:06 ===> num_workers=8
+2022-05-12 18:39:06 ===> batch_size=8
+2022-05-12 18:39:06 ===> start_epoch=0
+2022-05-12 18:39:06 ===> end_epoch=1000
+2022-05-12 18:39:06 ===> save_freq=1000
+2022-05-12 18:39:06 ===> resume=
+2022-05-12 18:39:06 ===> load=True
+2022-05-12 18:39:06 ===> local_rank=0
+2022-05-12 18:39:06 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:39:06 ===> flip+pe
+2022-05-12 18:39:06 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:39:06 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:39:09 ===> re-training!!!
+2022-05-12 18:39:09 ===> Samples for train = 100
+2022-05-12 18:39:16 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:39:16 ===> subset=100
+2022-05-12 18:39:16 ===> transforms=flip+pe
+2022-05-12 18:39:16 ===> user=name of user
+2022-05-12 18:39:16 ===> experiment=TransBTS
+2022-05-12 18:39:16 ===> date=2022-05-12
+2022-05-12 18:39:16 ===> description=flip+pe
+2022-05-12 18:39:16 ===> root=path to training set
+2022-05-12 18:39:16 ===> train_dir=Train
+2022-05-12 18:39:16 ===> valid_dir=Valid
+2022-05-12 18:39:16 ===> mode=train
+2022-05-12 18:39:16 ===> train_file=train.txt
+2022-05-12 18:39:16 ===> valid_file=valid.txt
+2022-05-12 18:39:16 ===> dataset=brats
+2022-05-12 18:39:16 ===> model_name=TransBTS
+2022-05-12 18:39:16 ===> input_C=4
+2022-05-12 18:39:16 ===> input_H=240
+2022-05-12 18:39:16 ===> input_W=240
+2022-05-12 18:39:16 ===> input_D=160
+2022-05-12 18:39:16 ===> crop_H=128
+2022-05-12 18:39:16 ===> crop_W=128
+2022-05-12 18:39:16 ===> crop_D=128
+2022-05-12 18:39:16 ===> output_D=155
+2022-05-12 18:39:16 ===> lr=0.0002
+2022-05-12 18:39:16 ===> weight_decay=1e-05
+2022-05-12 18:39:16 ===> amsgrad=True
+2022-05-12 18:39:16 ===> criterion=softmax_dice
+2022-05-12 18:39:16 ===> num_class=4
+2022-05-12 18:39:16 ===> seed=1000
+2022-05-12 18:39:16 ===> no_cuda=False
+2022-05-12 18:39:16 ===> gpu=0,1,2,3
+2022-05-12 18:39:16 ===> num_workers=8
+2022-05-12 18:39:16 ===> batch_size=8
+2022-05-12 18:39:16 ===> start_epoch=0
+2022-05-12 18:39:16 ===> end_epoch=1000
+2022-05-12 18:39:16 ===> save_freq=1000
+2022-05-12 18:39:16 ===> resume=
+2022-05-12 18:39:16 ===> load=True
+2022-05-12 18:39:16 ===> local_rank=0
+2022-05-12 18:39:16 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:39:16 ===> flip+pe
+2022-05-12 18:39:16 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:39:44 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:39:44 ===> subset=100
+2022-05-12 18:39:44 ===> transforms=flip+pe
+2022-05-12 18:39:44 ===> user=name of user
+2022-05-12 18:39:44 ===> experiment=TransBTS
+2022-05-12 18:39:44 ===> date=2022-05-12
+2022-05-12 18:39:44 ===> description=flip+pe
+2022-05-12 18:39:44 ===> root=path to training set
+2022-05-12 18:39:44 ===> train_dir=Train
+2022-05-12 18:39:44 ===> valid_dir=Valid
+2022-05-12 18:39:44 ===> mode=train
+2022-05-12 18:39:44 ===> train_file=train.txt
+2022-05-12 18:39:44 ===> valid_file=valid.txt
+2022-05-12 18:39:44 ===> dataset=brats
+2022-05-12 18:39:44 ===> model_name=TransBTS
+2022-05-12 18:39:44 ===> input_C=4
+2022-05-12 18:39:44 ===> input_H=240
+2022-05-12 18:39:44 ===> input_W=240
+2022-05-12 18:39:44 ===> input_D=160
+2022-05-12 18:39:44 ===> crop_H=128
+2022-05-12 18:39:44 ===> crop_W=128
+2022-05-12 18:39:44 ===> crop_D=128
+2022-05-12 18:39:44 ===> output_D=155
+2022-05-12 18:39:44 ===> lr=0.0002
+2022-05-12 18:39:44 ===> weight_decay=1e-05
+2022-05-12 18:39:44 ===> amsgrad=True
+2022-05-12 18:39:44 ===> criterion=softmax_dice
+2022-05-12 18:39:44 ===> num_class=4
+2022-05-12 18:39:44 ===> seed=1000
+2022-05-12 18:39:44 ===> no_cuda=False
+2022-05-12 18:39:44 ===> gpu=0,1,2,3
+2022-05-12 18:39:44 ===> num_workers=8
+2022-05-12 18:39:44 ===> batch_size=8
+2022-05-12 18:39:44 ===> start_epoch=0
+2022-05-12 18:39:44 ===> end_epoch=1000
+2022-05-12 18:39:44 ===> save_freq=1000
+2022-05-12 18:39:44 ===> resume=
+2022-05-12 18:39:44 ===> load=True
+2022-05-12 18:39:44 ===> local_rank=0
+2022-05-12 18:39:44 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:39:44 ===> flip+pe
+2022-05-12 18:39:44 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:39:44 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:39:47 ===> re-training!!!
+2022-05-12 18:39:47 ===> Samples for train = 100
+2022-05-12 18:39:54 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:39:54 ===> subset=100
+2022-05-12 18:39:54 ===> transforms=flip+pe
+2022-05-12 18:39:54 ===> user=name of user
+2022-05-12 18:39:54 ===> experiment=TransBTS
+2022-05-12 18:39:54 ===> date=2022-05-12
+2022-05-12 18:39:54 ===> description=flip+pe
+2022-05-12 18:39:54 ===> root=path to training set
+2022-05-12 18:39:54 ===> train_dir=Train
+2022-05-12 18:39:54 ===> valid_dir=Valid
+2022-05-12 18:39:54 ===> mode=train
+2022-05-12 18:39:54 ===> train_file=train.txt
+2022-05-12 18:39:54 ===> valid_file=valid.txt
+2022-05-12 18:39:54 ===> dataset=brats
+2022-05-12 18:39:54 ===> model_name=TransBTS
+2022-05-12 18:39:54 ===> input_C=4
+2022-05-12 18:39:54 ===> input_H=240
+2022-05-12 18:39:54 ===> input_W=240
+2022-05-12 18:39:54 ===> input_D=160
+2022-05-12 18:39:54 ===> crop_H=128
+2022-05-12 18:39:54 ===> crop_W=128
+2022-05-12 18:39:54 ===> crop_D=128
+2022-05-12 18:39:54 ===> output_D=155
+2022-05-12 18:39:54 ===> lr=0.0002
+2022-05-12 18:39:54 ===> weight_decay=1e-05
+2022-05-12 18:39:54 ===> amsgrad=True
+2022-05-12 18:39:54 ===> criterion=softmax_dice
+2022-05-12 18:39:54 ===> num_class=4
+2022-05-12 18:39:54 ===> seed=1000
+2022-05-12 18:39:54 ===> no_cuda=False
+2022-05-12 18:39:54 ===> gpu=0,1,2,3
+2022-05-12 18:39:54 ===> num_workers=8
+2022-05-12 18:39:54 ===> batch_size=8
+2022-05-12 18:39:54 ===> start_epoch=0
+2022-05-12 18:39:54 ===> end_epoch=1000
+2022-05-12 18:39:54 ===> save_freq=1000
+2022-05-12 18:39:54 ===> resume=
+2022-05-12 18:39:54 ===> load=True
+2022-05-12 18:39:54 ===> local_rank=0
+2022-05-12 18:39:54 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:39:54 ===> flip+pe
+2022-05-12 18:39:54 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:40:24 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:40:24 ===> subset=100
+2022-05-12 18:40:24 ===> transforms=flip+pe
+2022-05-12 18:40:24 ===> user=name of user
+2022-05-12 18:40:24 ===> experiment=TransBTS
+2022-05-12 18:40:24 ===> date=2022-05-12
+2022-05-12 18:40:24 ===> description=flip+pe
+2022-05-12 18:40:24 ===> root=path to training set
+2022-05-12 18:40:24 ===> train_dir=Train
+2022-05-12 18:40:24 ===> valid_dir=Valid
+2022-05-12 18:40:24 ===> mode=train
+2022-05-12 18:40:24 ===> train_file=train.txt
+2022-05-12 18:40:24 ===> valid_file=valid.txt
+2022-05-12 18:40:24 ===> dataset=brats
+2022-05-12 18:40:24 ===> model_name=TransBTS
+2022-05-12 18:40:24 ===> input_C=4
+2022-05-12 18:40:24 ===> input_H=240
+2022-05-12 18:40:24 ===> input_W=240
+2022-05-12 18:40:24 ===> input_D=160
+2022-05-12 18:40:24 ===> crop_H=128
+2022-05-12 18:40:24 ===> crop_W=128
+2022-05-12 18:40:24 ===> crop_D=128
+2022-05-12 18:40:24 ===> output_D=155
+2022-05-12 18:40:24 ===> lr=0.0002
+2022-05-12 18:40:24 ===> weight_decay=1e-05
+2022-05-12 18:40:24 ===> amsgrad=True
+2022-05-12 18:40:24 ===> criterion=softmax_dice
+2022-05-12 18:40:24 ===> num_class=4
+2022-05-12 18:40:24 ===> seed=1000
+2022-05-12 18:40:24 ===> no_cuda=False
+2022-05-12 18:40:24 ===> gpu=0,1,2,3
+2022-05-12 18:40:24 ===> num_workers=8
+2022-05-12 18:40:24 ===> batch_size=8
+2022-05-12 18:40:24 ===> start_epoch=0
+2022-05-12 18:40:24 ===> end_epoch=1000
+2022-05-12 18:40:24 ===> save_freq=1000
+2022-05-12 18:40:24 ===> resume=
+2022-05-12 18:40:24 ===> load=True
+2022-05-12 18:40:24 ===> local_rank=0
+2022-05-12 18:40:24 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:40:24 ===> flip+pe
+2022-05-12 18:40:24 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:40:24 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:40:29 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:40:29 ===> subset=100
+2022-05-12 18:40:29 ===> transforms=flip+pe
+2022-05-12 18:40:29 ===> user=name of user
+2022-05-12 18:40:29 ===> experiment=TransBTS
+2022-05-12 18:40:29 ===> date=2022-05-12
+2022-05-12 18:40:29 ===> description=flip+pe
+2022-05-12 18:40:29 ===> root=path to training set
+2022-05-12 18:40:29 ===> train_dir=Train
+2022-05-12 18:40:29 ===> valid_dir=Valid
+2022-05-12 18:40:29 ===> mode=train
+2022-05-12 18:40:29 ===> train_file=train.txt
+2022-05-12 18:40:29 ===> valid_file=valid.txt
+2022-05-12 18:40:29 ===> dataset=brats
+2022-05-12 18:40:29 ===> model_name=TransBTS
+2022-05-12 18:40:29 ===> input_C=4
+2022-05-12 18:40:29 ===> input_H=240
+2022-05-12 18:40:29 ===> input_W=240
+2022-05-12 18:40:29 ===> input_D=160
+2022-05-12 18:40:29 ===> crop_H=128
+2022-05-12 18:40:29 ===> crop_W=128
+2022-05-12 18:40:29 ===> crop_D=128
+2022-05-12 18:40:29 ===> output_D=155
+2022-05-12 18:40:29 ===> lr=0.0002
+2022-05-12 18:40:29 ===> weight_decay=1e-05
+2022-05-12 18:40:29 ===> amsgrad=True
+2022-05-12 18:40:29 ===> criterion=softmax_dice
+2022-05-12 18:40:29 ===> num_class=4
+2022-05-12 18:40:29 ===> seed=1000
+2022-05-12 18:40:29 ===> no_cuda=False
+2022-05-12 18:40:29 ===> gpu=0,1,2,3
+2022-05-12 18:40:29 ===> num_workers=8
+2022-05-12 18:40:29 ===> batch_size=8
+2022-05-12 18:40:29 ===> start_epoch=0
+2022-05-12 18:40:29 ===> end_epoch=1000
+2022-05-12 18:40:29 ===> save_freq=1000
+2022-05-12 18:40:29 ===> resume=
+2022-05-12 18:40:29 ===> load=True
+2022-05-12 18:40:29 ===> local_rank=0
+2022-05-12 18:40:29 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:40:29 ===> flip+pe
+2022-05-12 18:40:29 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:40:39 ===> Waiting in store based barrier to initialize process group for rank: 0, key: store_based_barrier_key:1 (world_size=2, worker_count=4, timeout=0:30:00)
+2022-05-12 18:41:19 ===> --------------------------------------This is all argsurations----------------------------------
+2022-05-12 18:41:19 ===> subset=100
+2022-05-12 18:41:19 ===> transforms=flip+pe
+2022-05-12 18:41:19 ===> user=name of user
+2022-05-12 18:41:19 ===> experiment=TransBTS
+2022-05-12 18:41:19 ===> date=2022-05-12
+2022-05-12 18:41:19 ===> description=flip+pe
+2022-05-12 18:41:19 ===> root=path to training set
+2022-05-12 18:41:19 ===> train_dir=Train
+2022-05-12 18:41:19 ===> valid_dir=Valid
+2022-05-12 18:41:19 ===> mode=train
+2022-05-12 18:41:19 ===> train_file=train.txt
+2022-05-12 18:41:19 ===> valid_file=valid.txt
+2022-05-12 18:41:19 ===> dataset=brats
+2022-05-12 18:41:19 ===> model_name=TransBTS
+2022-05-12 18:41:19 ===> input_C=4
+2022-05-12 18:41:19 ===> input_H=240
+2022-05-12 18:41:19 ===> input_W=240
+2022-05-12 18:41:19 ===> input_D=160
+2022-05-12 18:41:19 ===> crop_H=128
+2022-05-12 18:41:19 ===> crop_W=128
+2022-05-12 18:41:19 ===> crop_D=128
+2022-05-12 18:41:19 ===> output_D=155
+2022-05-12 18:41:19 ===> lr=0.0002
+2022-05-12 18:41:19 ===> weight_decay=1e-05
+2022-05-12 18:41:19 ===> amsgrad=True
+2022-05-12 18:41:19 ===> criterion=softmax_dice
+2022-05-12 18:41:19 ===> num_class=4
+2022-05-12 18:41:19 ===> seed=1000
+2022-05-12 18:41:19 ===> no_cuda=False
+2022-05-12 18:41:19 ===> gpu=0,1,2,3
+2022-05-12 18:41:19 ===> num_workers=8
+2022-05-12 18:41:19 ===> batch_size=8
+2022-05-12 18:41:19 ===> start_epoch=0
+2022-05-12 18:41:19 ===> end_epoch=1000
+2022-05-12 18:41:19 ===> save_freq=1000
+2022-05-12 18:41:19 ===> resume=
+2022-05-12 18:41:19 ===> load=True
+2022-05-12 18:41:19 ===> local_rank=0
+2022-05-12 18:41:19 ===> ----------------------------------------This is a halving line----------------------------------
+2022-05-12 18:41:19 ===> flip+pe
+2022-05-12 18:41:19 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2022-05-12 18:41:19 ===> Rank 0: Completed store-based barrier for 2 nodes.
+2022-05-12 18:41:22 ===> re-training!!!
+2022-05-12 18:41:22 ===> Samples for train = 100
+2022-05-12 18:41:31 ===> Epoch: 0_Iter:0  loss: 1.47283 || 1:0.0063 | 2:0.0126 | 3:0.0083 ||
+2022-05-12 18:41:36 ===> Epoch: 0_Iter:1  loss: 1.47910 || 1:0.0041 | 2:0.0096 | 3:0.0072 ||
+2022-05-12 18:41:37 ===> Epoch: 0_Iter:2  loss: 1.46729 || 1:0.0029 | 2:0.0177 | 3:0.0121 ||
+2022-05-12 18:41:37 ===> Epoch: 0_Iter:3  loss: 1.47777 || 1:0.0004 | 2:0.0185 | 3:0.0034 ||
+2022-05-12 18:41:38 ===> Epoch: 0_Iter:4  loss: 1.45402 || 1:0.0018 | 2:0.0321 | 3:0.0121 ||
+2022-05-12 18:41:39 ===> Epoch: 0_Iter:5  loss: 1.44535 || 1:0.0049 | 2:0.0347 | 3:0.0150 ||
+2022-05-12 18:41:39 ===> Epoch: 0_Iter:6  loss: 1.46511 || 1:0.0032 | 2:0.0290 | 3:0.0027 ||
+2022-05-12 18:41:40 ===> Epoch: 0_Iter:7  loss: 1.44688 || 1:0.0052 | 2:0.0396 | 3:0.0083 ||
+2022-05-12 18:41:41 ===> Epoch: 0_Iter:8  loss: 1.45206 || 1:0.0055 | 2:0.0365 | 3:0.0059 ||
+2022-05-12 18:41:41 ===> Epoch: 0_Iter:9  loss: 1.40703 || 1:0.0020 | 2:0.0835 | 3:0.0075 ||
+2022-05-12 18:41:42 ===> Epoch: 0_Iter:10  loss: 1.42894 || 1:0.0015 | 2:0.0592 | 3:0.0104 ||
+2022-05-12 18:41:43 ===> Epoch: 0_Iter:11  loss: 1.44057 || 1:0.0008 | 2:0.0459 | 3:0.0128 ||
+2022-05-12 18:41:43 ===> Epoch: 0_Iter:12  loss: 1.42782 || 1:0.0031 | 2:0.0593 | 3:0.0098 ||
+2022-05-12 18:41:44 ===> Epoch: 0_Iter:13  loss: 1.38084 || 1:0.0033 | 2:0.1025 | 3:0.0133 ||
+2022-05-12 18:41:45 ===> Epoch: 0_Iter:14  loss: 1.43979 || 1:0.0003 | 2:0.0551 | 3:0.0048 ||
+2022-05-12 18:41:46 ===> Epoch: 0_Iter:15  loss: 1.40672 || 1:0.0034 | 2:0.0806 | 3:0.0093 ||
+2022-05-12 18:41:46 ===> Epoch: 0_Iter:16  loss: 1.41222 || 1:0.0019 | 2:0.0719 | 3:0.0139 ||
+2022-05-12 18:41:47 ===> Epoch: 0_Iter:17  loss: 1.47451 || 1:0.0001 | 2:0.0229 | 3:0.0025 ||
+2022-05-12 18:41:48 ===> Epoch: 0_Iter:18  loss: 1.43813 || 1:0.0004 | 2:0.0521 | 3:0.0094 ||
+2022-05-12 18:41:48 ===> Epoch: 0_Iter:19  loss: 1.41243 || 1:0.0019 | 2:0.0694 | 3:0.0163 ||
+2022-05-12 18:41:49 ===> Epoch: 0_Iter:20  loss: 1.44323 || 1:0.0000 | 2:0.0524 | 3:0.0044 ||
+2022-05-12 18:41:50 ===> Epoch: 0_Iter:21  loss: 1.44929 || 1:0.0013 | 2:0.0394 | 3:0.0100 ||
+2022-05-12 18:41:50 ===> Epoch: 0_Iter:22  loss: 1.42028 || 1:0.0005 | 2:0.0646 | 3:0.0146 ||
+2022-05-12 18:41:51 ===> Epoch: 0_Iter:23  loss: 1.48343 || 1:0.0003 | 2:0.0129 | 3:0.0034 ||
+2022-05-12 18:41:52 ===> Epoch: 0_Iter:24  loss: 1.43839 || 1:0.0002 | 2:0.0522 | 3:0.0092 ||
+2022-05-12 18:41:52 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:41:52 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:41:52 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:41:52 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:41:52 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:41:52 ===> Current epoch time consumption: 0.51 minutes!
+2022-05-12 18:41:52 ===> Estimated remaining training time: 8.42 hours!
+2022-05-12 18:41:55 ===> Epoch: 1_Iter:0  loss: 1.44218 || 1:0.0001 | 2:0.0495 | 3:0.0082 ||
+2022-05-12 18:41:56 ===> Epoch: 1_Iter:1  loss: 1.40589 || 1:0.0013 | 2:0.0757 | 3:0.0171 ||
+2022-05-12 18:41:57 ===> Epoch: 1_Iter:2  loss: 1.43158 || 1:0.0001 | 2:0.0551 | 3:0.0131 ||
+2022-05-12 18:41:58 ===> Epoch: 1_Iter:3  loss: 1.39883 || 1:0.0016 | 2:0.0778 | 3:0.0217 ||
+2022-05-12 18:41:58 ===> Epoch: 1_Iter:4  loss: 1.46132 || 1:0.0006 | 2:0.0286 | 3:0.0095 ||
+2022-05-12 18:41:59 ===> Epoch: 1_Iter:5  loss: 1.38775 || 1:0.0008 | 2:0.0899 | 3:0.0215 ||
+2022-05-12 18:42:00 ===> Epoch: 1_Iter:6  loss: 1.44055 || 1:0.0003 | 2:0.0462 | 3:0.0129 ||
+2022-05-12 18:42:00 ===> Epoch: 1_Iter:7  loss: 1.32716 || 1:0.0040 | 2:0.1290 | 3:0.0398 ||
+2022-05-12 18:42:01 ===> Epoch: 1_Iter:8  loss: 1.40837 || 1:0.0032 | 2:0.0725 | 3:0.0159 ||
+2022-05-12 18:42:02 ===> Epoch: 1_Iter:9  loss: 1.40959 || 1:0.0008 | 2:0.0729 | 3:0.0167 ||
+2022-05-12 18:42:03 ===> Epoch: 1_Iter:10  loss: 1.48189 || 1:0.0000 | 2:0.0177 | 3:0.0005 ||
+2022-05-12 18:42:03 ===> Epoch: 1_Iter:11  loss: 1.41623 || 1:0.0023 | 2:0.0647 | 3:0.0168 ||
+2022-05-12 18:42:04 ===> Epoch: 1_Iter:12  loss: 1.39151 || 1:0.0004 | 2:0.0982 | 3:0.0099 ||
+2022-05-12 18:42:05 ===> Epoch: 1_Iter:13  loss: 1.45928 || 1:0.0000 | 2:0.0334 | 3:0.0073 ||
+2022-05-12 18:42:05 ===> Epoch: 1_Iter:14  loss: 1.37626 || 1:0.0006 | 2:0.1078 | 3:0.0153 ||
+2022-05-12 18:42:06 ===> Epoch: 1_Iter:15  loss: 1.35537 || 1:0.0007 | 2:0.1295 | 3:0.0145 ||
+2022-05-12 18:42:07 ===> Epoch: 1_Iter:16  loss: 1.33633 || 1:0.0007 | 2:0.1170 | 3:0.0459 ||
+2022-05-12 18:42:07 ===> Epoch: 1_Iter:17  loss: 1.30104 || 1:0.0024 | 2:0.1623 | 3:0.0343 ||
+2022-05-12 18:42:08 ===> Epoch: 1_Iter:18  loss: 1.46952 || 1:0.0008 | 2:0.0276 | 3:0.0021 ||
+2022-05-12 18:42:09 ===> Epoch: 1_Iter:19  loss: 1.36185 || 1:0.0009 | 2:0.1193 | 3:0.0180 ||
+2022-05-12 18:42:09 ===> Epoch: 1_Iter:20  loss: 1.35989 || 1:0.0005 | 2:0.1240 | 3:0.0156 ||
+2022-05-12 18:42:10 ===> Epoch: 1_Iter:21  loss: 1.36753 || 1:0.0003 | 2:0.0943 | 3:0.0379 ||
+2022-05-12 18:42:11 ===> Epoch: 1_Iter:22  loss: 1.39105 || 1:0.0000 | 2:0.1037 | 3:0.0053 ||
+2022-05-12 18:42:12 ===> Epoch: 1_Iter:23  loss: 1.33407 || 1:0.0002 | 2:0.1244 | 3:0.0413 ||
+2022-05-12 18:42:12 ===> Epoch: 1_Iter:24  loss: 1.33650 || 1:0.0003 | 2:0.1374 | 3:0.0258 ||
+2022-05-12 18:42:13 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:42:13 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:42:13 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:42:13 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:42:13 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:42:13 ===> Current epoch time consumption: 0.34 minutes!
+2022-05-12 18:42:13 ===> Estimated remaining training time: 5.68 hours!
+2022-05-12 18:42:14 ===> Epoch: 2_Iter:0  loss: 1.35113 || 1:0.0041 | 2:0.1078 | 3:0.0370 ||
+2022-05-12 18:42:15 ===> Epoch: 2_Iter:1  loss: 1.20979 || 1:0.0081 | 2:0.2247 | 3:0.0574 ||
+2022-05-12 18:42:16 ===> Epoch: 2_Iter:2  loss: 1.18202 || 1:0.0028 | 2:0.2564 | 3:0.0587 ||
+2022-05-12 18:42:16 ===> Epoch: 2_Iter:3  loss: 1.29082 || 1:0.0007 | 2:0.1694 | 3:0.0391 ||
+2022-05-12 18:42:17 ===> Epoch: 2_Iter:4  loss: 1.25245 || 1:0.0016 | 2:0.1671 | 3:0.0788 ||
+2022-05-12 18:42:18 ===> Epoch: 2_Iter:5  loss: 1.41772 || 1:0.0000 | 2:0.0737 | 3:0.0085 ||
+2022-05-12 18:42:19 ===> Epoch: 2_Iter:6  loss: 1.19254 || 1:0.0002 | 2:0.2558 | 3:0.0515 ||
+2022-05-12 18:42:19 ===> Epoch: 2_Iter:7  loss: 1.06902 || 1:0.0025 | 2:0.2917 | 3:0.1368 ||
+2022-05-12 18:42:20 ===> Epoch: 2_Iter:8  loss: 1.11058 || 1:0.0006 | 2:0.3155 | 3:0.0734 ||
+2022-05-12 18:42:21 ===> Epoch: 2_Iter:9  loss: 1.01531 || 1:0.0001 | 2:0.3284 | 3:0.1562 ||
+2022-05-12 18:42:21 ===> Epoch: 2_Iter:10  loss: 0.97989 || 1:0.0008 | 2:0.2735 | 3:0.2458 ||
+2022-05-12 18:42:22 ===> Epoch: 2_Iter:11  loss: 1.05853 || 1:0.0010 | 2:0.3007 | 3:0.1398 ||
+2022-05-12 18:42:23 ===> Epoch: 2_Iter:12  loss: 1.04510 || 1:0.0044 | 2:0.2402 | 3:0.2104 ||
+2022-05-12 18:42:23 ===> Epoch: 2_Iter:13  loss: 0.96567 || 1:0.0001 | 2:0.3503 | 3:0.1840 ||
+2022-05-12 18:42:24 ===> Epoch: 2_Iter:14  loss: 0.96642 || 1:0.0012 | 2:0.3035 | 3:0.2288 ||
+2022-05-12 18:42:25 ===> Epoch: 2_Iter:15  loss: 0.92909 || 1:0.0009 | 2:0.3195 | 3:0.2506 ||
+2022-05-12 18:42:25 ===> Epoch: 2_Iter:16  loss: 1.08614 || 1:0.0002 | 2:0.2122 | 3:0.2015 ||
+2022-05-12 18:42:26 ===> Epoch: 2_Iter:17  loss: 1.25581 || 1:0.0001 | 2:0.1893 | 3:0.0548 ||
+2022-05-12 18:42:27 ===> Epoch: 2_Iter:18  loss: 1.05668 || 1:0.0105 | 2:0.2606 | 3:0.1723 ||
+2022-05-12 18:42:28 ===> Epoch: 2_Iter:19  loss: 1.03122 || 1:0.0001 | 2:0.2632 | 3:0.2055 ||
+2022-05-12 18:42:28 ===> Epoch: 2_Iter:20  loss: 0.94922 || 1:0.0019 | 2:0.2291 | 3:0.3197 ||
+2022-05-12 18:42:29 ===> Epoch: 2_Iter:21  loss: 0.89926 || 1:0.0012 | 2:0.3460 | 3:0.2535 ||
+2022-05-12 18:42:30 ===> Epoch: 2_Iter:22  loss: 0.75290 || 1:0.0004 | 2:0.3781 | 3:0.3685 ||
+2022-05-12 18:42:30 ===> Epoch: 2_Iter:23  loss: 0.88410 || 1:0.0003 | 2:0.3298 | 3:0.2859 ||
+2022-05-12 18:42:31 ===> Epoch: 2_Iter:24  loss: 1.04294 || 1:0.0002 | 2:0.2543 | 3:0.2025 ||
+2022-05-12 18:42:32 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:42:32 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:42:32 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:42:32 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:42:32 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:42:32 ===> Current epoch time consumption: 0.31 minutes!
+2022-05-12 18:42:32 ===> Estimated remaining training time: 5.20 hours!
+2022-05-12 18:42:33 ===> Epoch: 3_Iter:0  loss: 0.85651 || 1:0.0002 | 2:0.2707 | 3:0.3726 ||
+2022-05-12 18:42:34 ===> Epoch: 3_Iter:1  loss: 1.01136 || 1:0.0013 | 2:0.2543 | 3:0.2331 ||
+2022-05-12 18:42:35 ===> Epoch: 3_Iter:2  loss: 0.76514 || 1:0.0012 | 2:0.3924 | 3:0.3413 ||
+2022-05-12 18:42:35 ===> Epoch: 3_Iter:3  loss: 1.08162 || 1:0.0017 | 2:0.2085 | 3:0.2082 ||
+2022-05-12 18:42:36 ===> Epoch: 3_Iter:4  loss: 0.90859 || 1:0.0002 | 2:0.3262 | 3:0.2650 ||
+2022-05-12 18:42:37 ===> Epoch: 3_Iter:5  loss: 0.91774 || 1:0.0030 | 2:0.3309 | 3:0.2484 ||
+2022-05-12 18:42:37 ===> Epoch: 3_Iter:6  loss: 0.90395 || 1:0.0016 | 2:0.2324 | 3:0.3621 ||
+2022-05-12 18:42:38 ===> Epoch: 3_Iter:7  loss: 0.88368 || 1:0.0004 | 2:0.2688 | 3:0.3472 ||
+2022-05-12 18:42:39 ===> Epoch: 3_Iter:8  loss: 0.75893 || 1:0.0002 | 2:0.3482 | 3:0.3927 ||
+2022-05-12 18:42:40 ===> Epoch: 3_Iter:9  loss: 0.90257 || 1:0.0104 | 2:0.3042 | 3:0.2828 ||
+2022-05-12 18:42:40 ===> Epoch: 3_Iter:10  loss: 0.94406 || 1:0.0002 | 2:0.2958 | 3:0.2599 ||
+2022-05-12 18:42:41 ===> Epoch: 3_Iter:11  loss: 1.01978 || 1:0.0020 | 2:0.1434 | 3:0.3348 ||
+2022-05-12 18:42:42 ===> Epoch: 3_Iter:12  loss: 0.82817 || 1:0.0011 | 2:0.3414 | 3:0.3293 ||
+2022-05-12 18:42:42 ===> Epoch: 3_Iter:13  loss: 0.89431 || 1:0.0007 | 2:0.3276 | 3:0.2774 ||
+2022-05-12 18:42:43 ===> Epoch: 3_Iter:14  loss: 0.78392 || 1:0.0051 | 2:0.3591 | 3:0.3518 ||
+2022-05-12 18:42:44 ===> Epoch: 3_Iter:15  loss: 0.96575 || 1:0.0004 | 2:0.2140 | 3:0.3198 ||
+2022-05-12 18:42:44 ===> Epoch: 3_Iter:16  loss: 1.00295 || 1:0.0000 | 2:0.2929 | 3:0.2041 ||
+2022-05-12 18:42:45 ===> Epoch: 3_Iter:17  loss: 0.77282 || 1:0.0000 | 2:0.3937 | 3:0.3335 ||
+2022-05-12 18:42:46 ===> Epoch: 3_Iter:18  loss: 0.84141 || 1:0.0009 | 2:0.3510 | 3:0.3067 ||
+2022-05-12 18:42:46 ===> Epoch: 3_Iter:19  loss: 1.03668 || 1:0.0012 | 2:0.3084 | 3:0.1537 ||
+2022-05-12 18:42:47 ===> Epoch: 3_Iter:20  loss: 1.15108 || 1:0.0037 | 2:0.1988 | 3:0.1464 ||
+2022-05-12 18:42:48 ===> Epoch: 3_Iter:21  loss: 0.90120 || 1:0.0003 | 2:0.3215 | 3:0.2771 ||
+2022-05-12 18:42:49 ===> Epoch: 3_Iter:22  loss: 0.81755 || 1:0.0002 | 2:0.3251 | 3:0.3571 ||
+2022-05-12 18:42:49 ===> Epoch: 3_Iter:23  loss: 0.87378 || 1:0.0007 | 2:0.3704 | 3:0.2551 ||
+2022-05-12 18:42:50 ===> Epoch: 3_Iter:24  loss: 0.79560 || 1:0.0008 | 2:0.3464 | 3:0.3573 ||
+2022-05-12 18:42:51 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:42:51 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:42:51 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:42:51 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:42:51 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:42:51 ===> Current epoch time consumption: 0.31 minutes!
+2022-05-12 18:42:51 ===> Estimated remaining training time: 5.22 hours!
+2022-05-12 18:42:52 ===> Epoch: 4_Iter:0  loss: 0.97435 || 1:0.0011 | 2:0.2443 | 3:0.2803 ||
+2022-05-12 18:42:53 ===> Epoch: 4_Iter:1  loss: 1.07351 || 1:0.0009 | 2:0.2840 | 3:0.1416 ||
+2022-05-12 18:42:54 ===> Epoch: 4_Iter:2  loss: 0.94595 || 1:0.0007 | 2:0.2709 | 3:0.2824 ||
+2022-05-12 18:42:54 ===> Epoch: 4_Iter:3  loss: 0.79836 || 1:0.0008 | 2:0.3470 | 3:0.3539 ||
+2022-05-12 18:42:55 ===> Epoch: 4_Iter:4  loss: 0.84156 || 1:0.0017 | 2:0.3334 | 3:0.3233 ||
+2022-05-12 18:42:56 ===> Epoch: 4_Iter:5  loss: 0.76869 || 1:0.0025 | 2:0.3634 | 3:0.3654 ||
+2022-05-12 18:42:57 ===> Epoch: 4_Iter:6  loss: 0.73254 || 1:0.0004 | 2:0.3711 | 3:0.3960 ||
+2022-05-12 18:42:57 ===> Epoch: 4_Iter:7  loss: 1.00509 || 1:0.0001 | 2:0.2679 | 3:0.2269 ||
+2022-05-12 18:42:58 ===> Epoch: 4_Iter:8  loss: 0.96744 || 1:0.0010 | 2:0.2072 | 3:0.3244 ||
+2022-05-12 18:42:59 ===> Epoch: 4_Iter:9  loss: 0.82688 || 1:0.0017 | 2:0.3139 | 3:0.3575 ||
+2022-05-12 18:42:59 ===> Epoch: 4_Iter:10  loss: 0.79327 || 1:0.0004 | 2:0.3833 | 3:0.3230 ||
+2022-05-12 18:43:00 ===> Epoch: 4_Iter:11  loss: 0.85811 || 1:0.0046 | 2:0.3503 | 3:0.2870 ||
+2022-05-12 18:43:01 ===> Epoch: 4_Iter:12  loss: 0.98903 || 1:0.0000 | 2:0.2636 | 3:0.2473 ||
+2022-05-12 18:43:01 ===> Epoch: 4_Iter:13  loss: 0.91743 || 1:0.0001 | 2:0.2891 | 3:0.2934 ||
+2022-05-12 18:43:02 ===> Epoch: 4_Iter:14  loss: 0.95026 || 1:0.0015 | 2:0.3166 | 3:0.2316 ||
+2022-05-12 18:43:03 ===> Epoch: 4_Iter:15  loss: 0.82542 || 1:0.0037 | 2:0.3379 | 3:0.3330 ||
+2022-05-12 18:43:03 ===> Epoch: 4_Iter:16  loss: 0.78998 || 1:0.0008 | 2:0.3647 | 3:0.3445 ||
+2022-05-12 18:43:04 ===> Epoch: 4_Iter:17  loss: 1.07754 || 1:0.0008 | 2:0.2514 | 3:0.1703 ||
+2022-05-12 18:43:05 ===> Epoch: 4_Iter:18  loss: 0.82085 || 1:0.0003 | 2:0.2858 | 3:0.3931 ||
+2022-05-12 18:43:06 ===> Epoch: 4_Iter:19  loss: 0.80310 || 1:0.0044 | 2:0.3047 | 3:0.3878 ||
+2022-05-12 18:43:06 ===> Epoch: 4_Iter:20  loss: 0.79385 || 1:0.0005 | 2:0.3142 | 3:0.3914 ||
+2022-05-12 18:43:07 ===> Epoch: 4_Iter:21  loss: 0.90449 || 1:0.0047 | 2:0.3294 | 3:0.2614 ||
+2022-05-12 18:43:08 ===> Epoch: 4_Iter:22  loss: 0.76542 || 1:0.0002 | 2:0.4043 | 3:0.3300 ||
+2022-05-12 18:43:08 ===> Epoch: 4_Iter:23  loss: 1.28994 || 1:0.0000 | 2:0.2101 | 3:0.0000 ||
+2022-05-12 18:43:09 ===> Epoch: 4_Iter:24  loss: 1.06013 || 1:0.0031 | 2:0.3176 | 3:0.1191 ||
+2022-05-12 18:43:10 ===> Summary name lr: is illegal; using lr_ instead.
+2022-05-12 18:43:10 ===> Summary name loss: is illegal; using loss_ instead.
+2022-05-12 18:43:10 ===> Summary name loss1: is illegal; using loss1_ instead.
+2022-05-12 18:43:10 ===> Summary name loss2: is illegal; using loss2_ instead.
+2022-05-12 18:43:10 ===> Summary name loss3: is illegal; using loss3_ instead.
+2022-05-12 18:43:10 ===> Current epoch time consumption: 0.32 minutes!
+2022-05-12 18:43:10 ===> Estimated remaining training time: 5.29 hours!
+2022-05-12 18:43:11 ===> Epoch: 5_Iter:0  loss: 1.00561 || 1:0.0012 | 2:0.2272 | 3:0.2659 ||
+2022-05-12 18:43:12 ===> Epoch: 5_Iter:1  loss: 1.00382 || 1:0.0018 | 2:0.2482 | 3:0.2461 ||
+2022-05-12 18:43:13 ===> Epoch: 5_Iter:2  loss: 0.76814 || 1:0.0022 | 2:0.3619 | 3:0.3677 ||
+2022-05-12 18:43:14 ===> Epoch: 5_Iter:3  loss: 0.80298 || 1:0.0004 | 2:0.3156 | 3:0.3810 ||
+2022-05-12 18:43:14 ===> Epoch: 5_Iter:4  loss: 0.83711 || 1:0.0001 | 2:0.3542 | 3:0.3086 ||
+2022-05-12 18:43:15 ===> Epoch: 5_Iter:5  loss: 0.82232 || 1:0.0019 | 2:0.3303 | 3:0.3454 ||
+2022-05-12 18:43:16 ===> Epoch: 5_Iter:6  loss: 1.02008 || 1:0.0001 | 2:0.1865 | 3:0.2934 ||
+2022-05-12 18:43:16 ===> Epoch: 5_Iter:7  loss: 1.00676 || 1:0.0001 | 2:0.2586 | 3:0.2345 ||
+2022-05-12 18:43:17 ===> Epoch: 5_Iter:8  loss: 0.99114 || 1:0.0000 | 2:0.2335 | 3:0.2754 ||

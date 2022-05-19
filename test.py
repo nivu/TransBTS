@@ -20,9 +20,9 @@ parser = argparse.ArgumentParser()
 
 parser.add_argument('--user', default='name of user', type=str)
 
-parser.add_argument('--root', default='path to testing set', type=str)
+parser.add_argument('--root', default='TransBTS/data', type=str)
 
-parser.add_argument('--valid_dir', default='Valid', type=str)
+parser.add_argument('--valid_dir', default='', type=str)
 
 parser.add_argument('--valid_file', default='valid.txt', type=str)
 
@@ -78,9 +78,9 @@ def main():
 
     load_file = os.path.join(os.path.abspath(os.path.dirname(__file__)),
                              'checkpoint', args.experiment+args.test_date, args.test_file)
-
+    print(load_file)
     if os.path.exists(load_file):
-        checkpoint = torch.load(load_file)
+        checkpoint = torch.load("TransBTS/checkpoint/TransBTS2022-04-28/model_epoch_0.pth")
         model.load_state_dict(checkpoint['state_dict'])
         args.start_epoch = checkpoint['epoch']
         print('Successfully load checkpoint {}'.format(os.path.join(args.experiment+args.test_date, args.test_file)))
